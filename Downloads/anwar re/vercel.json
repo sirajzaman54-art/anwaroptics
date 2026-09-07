@@ -1,0 +1,34 @@
+{
+  "redirects": [
+    { "source": "/lens-tint-preview", "destination": "/tools", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/product/:slug", "destination": "/product.html" },
+    { "source": "/eyeglasses", "destination": "/catalogue.html" },
+    { "source": "/eyeglasses/men", "destination": "/catalogue.html" },
+    { "source": "/eyeglasses/women", "destination": "/catalogue.html" },
+    { "source": "/eyeglasses/kids", "destination": "/catalogue.html" },
+    { "source": "/sunglasses", "destination": "/catalogue.html" },
+    { "source": "/sunglasses/men", "destination": "/catalogue.html" },
+    { "source": "/contact-lenses", "destination": "/catalogue.html" },
+    { "source": "/offers", "destination": "/catalogue.html" },
+    { "source": "/sale", "destination": "/catalogue.html" },
+    { "source": "/search", "destination": "/search.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/certifications", "destination": "/certifications.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/tools", "destination": "/tools.html" },
+    { "source": "/cart", "destination": "/cart.html" },
+    { "source": "/order", "destination": "/order.html" },
+    { "source": "/frame-finder", "destination": "/frame-finder.html" },
+    { "source": "/will-it-fit", "destination": "/will-it-fit.html" },
+    { "source": "/prescription-decoder", "destination": "/prescription-decoder.html" },
+    { "source": "/which-lens", "destination": "/which-lens.html" },
+    { "source": "/measure-pd", "destination": "/measure-pd.html" },
+    { "source": "/lens-comparison", "destination": "/lens-comparison.html" },
+    { "source": "/uv-protection-guide", "destination": "/uv-protection-guide.html" },
+    { "source": "/lens-reminder", "destination": "/lens-reminder.html" },
+    { "source": "/privacy", "destination": "/privacy.html" },
+    { "source": "/v2", "destination": "/anwar-optical-v2.html" }
+  ]
+}

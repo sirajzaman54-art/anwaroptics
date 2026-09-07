@@ -1,0 +1,308 @@
+{
+ "total": 65,
+ "missingName": [
+  32196
+ ],
+ "missingPrice": [
+  31011,
+  31004,
+  31001,
+  30999
+ ],
+ "brandStripped": [
+  {
+   "id": 32172,
+   "sourceName": "Boss | Men's Branded | Sheet | Unbreakable",
+   "display": "Men's Sheet"
+  },
+  {
+   "id": 32166,
+   "sourceName": "RAYBAN | Ringmaster | Unisex | unbreakable",
+   "display": "Ringmaster"
+  },
+  {
+   "id": 32163,
+   "sourceName": "Boss | Unisex | unbreakable | Sheet eyewear",
+   "display": "Sheet Eyewear"
+  },
+  {
+   "id": 32151,
+   "sourceName": "DITA | Sheet eyewear | Mens",
+   "display": "Sheet Eyewear Mens"
+  },
+  {
+   "id": 31945,
+   "sourceName": "Cartier | Metal eyewear | Unisex | Branded",
+   "display": "Metal Eyewear"
+  },
+  {
+   "id": 31807,
+   "sourceName": "Luxury Metal | Men's eyewear | Mont blanc",
+   "display": "Metal Men's Eyewear"
+  },
+  {
+   "id": 31141,
+   "sourceName": "Rayban mate Transparent",
+   "display": "Mate Transparent"
+  },
+  {
+   "id": 31135,
+   "sourceName": "RayBan Aviator GoldenGreen",
+   "display": "Aviator Goldengreen"
+  },
+  {
+   "id": 31128,
+   "sourceName": "RAY BAN RB3689 BI-GRADIENT",
+   "display": "Rb3689 Bi-gradient"
+  }
+ ],
+ "placeholderNames": [
+  {
+   "id": 32196,
+   "sourceName": "(empty)"
+  },
+  {
+   "id": 31011,
+   "sourceName": "Prod-006"
+  },
+  {
+   "id": 31004,
+   "sourceName": "Prod-003"
+  },
+  {
+   "id": 31001,
+   "sourceName": "Prod-002"
+  },
+  {
+   "id": 30999,
+   "sourceName": "Prod-001"
+  }
+ ],
+ "zeroImages": [],
+ "categoriesRaw": {
+  "mens": 23,
+  "womens": 34,
+  "eyewear": 46,
+  "sunglasses": 4,
+  "kids": 7,
+  "uncategorized": 1,
+  "contact-lenses": 6,
+  "magic-eye": 7,
+  "mens-sunglasses": 4,
+  "kids-sunglasses": 1
+ },
+ "descriptionsOmitted": [
+  {
+   "id": 32196,
+   "name": "Product 196",
+   "sourceText": "New arrivals! This most trending article in2026"
+  },
+  {
+   "id": 32172,
+   "name": "Men's Sheet",
+   "sourceText": "Elevate your look with Hugo Boss Eyewear, blending premium craftsmanship, iconic design, and ultimate comfort. From sleek sunglasses with 100% UV protection to sophisticated optical frames, each piece reflects refined elegance. Perfect for every occasion, Hugo Boss Eyewear offers versatile styles for those who value luxury and functionality. Discover your next statement piece today!"
+  },
+  {
+   "id": 32166,
+   "name": "Ringmaster",
+   "sourceText": "**Available in:** - Classic Black, Tortoise Shell, and Silver Frame options. - Multiple lens tints to suit your personal style. **RAYBAN Ringmaster** – See the world in style. Add it to your collection today! Best Combination with Blucut Lenses.."
+  },
+  {
+   "id": 32163,
+   "name": "Sheet Eyewear",
+   "sourceText": "HugoBoss brand Large size, 100% Suitable rate.. 1 year garantee, expected life 3 years, Best Combination with Blucut Lenses [contact-form]"
+  },
+  {
+   "id": 32151,
+   "name": "Sheet Eyewear Mens",
+   "sourceText": "This Superb High Quality eyewear One year guaranteed unbreakable, article for men's, expected life 3 years Best combo with Uv420 blucut lense Large size fashioned,"
+  },
+  {
+   "id": 32143,
+   "name": "Metal Ladies Eyewear",
+   "sourceText": "Mate pink is rarely seen in eyewear industry, this is a such a beautiful color combination mate pink with Golden, enhance your look by 300% Large size, light weight Best Combination with Blucut Lenses"
+  },
+  {
+   "id": 32131,
+   "name": "Metal Cat Eye Ladies",
+   "sourceText": "New trending Cat eye design Large model, 100 suitable rate Light weight 3 years life Best Combination with Blucut uv420 lenses"
+  },
+  {
+   "id": 32118,
+   "name": "Metal Ladies Eyewear",
+   "sourceText": "100% Suitable Rate Color garanteed Large size according to fashion Best Combination with Blucut Uv420 lenses"
+  },
+  {
+   "id": 32109,
+   "name": "Rounded Metal Ladies Eyewear",
+   "sourceText": "Unbreakable Metal, For your daily routine use, light weight, durable and comfortable, Best combination with blucut mobile light filter lenses Uv420"
+  },
+  {
+   "id": 32101,
+   "name": "Metal Penta Shape Ladies",
+   "sourceText": "Large size metal color guaranteed, Light weight 100% Suitable rate Best combination with blucut mobile light filter lenses Uv420"
+  },
+  {
+   "id": 32099,
+   "name": "Transparent Sheet",
+   "sourceText": "Trends 2025 Large size idea for everyface 100% Suitable rateB est combination with blucut mobile light filter lenses Uv420"
+  },
+  {
+   "id": 32073,
+   "name": "Sapphire Sheet Frame",
+   "sourceText": "It's a Classical model of sheet eyewear, to enhance the look, Large size, dual shade Durable, Comfortable, light weight Best Combination with Uv420 lenses.."
+  },
+  {
+   "id": 32057,
+   "name": "Ladies Glass Sunglass",
+   "sourceText": "Thin metal sunglass with high quality thick glass lenses installed, New design and light weight Large size 100% suitable on every female faces."
+  },
+  {
+   "id": 31997,
+   "name": "Ladies Eyewear",
+   "sourceText": "Double color light weight durable and comfortable, 100% suitable rate on every face, best combination with Uv420 lenses, best protection from mobile and screen lights"
+  },
+  {
+   "id": 31988,
+   "name": "Ladies Fancy Eyewear",
+   "sourceText": "Double color light weight durable and comfortable, 100% suitable rate on every face, best combination with Uv420 lenses, best protection from mobile and screen lights"
+  },
+  {
+   "id": 31985,
+   "name": "Ladies Fancy Eyewear",
+   "sourceText": "Double color light weight durable and comfortable, 100% suitable rate on every face, best combination with Uv420 lenses, best protection from mobile and screen lights"
+  },
+  {
+   "id": 31945,
+   "name": "Metal Eyewear",
+   "sourceText": "Cartier Evergreen, Fancy party and casual wear, medium size solid silver color , Available in 4 colors Brow,grey,silver, For more details Whatsapp 03464105613"
+  },
+  {
+   "id": 31855,
+   "name": "Kids Eyewear Sheet Age 10 To 15 Years",
+   "sourceText": "Non Breakable Rubber plastic sheet for Kids, Best Combination with Uv420 blucut lenses, that reduce the chances of decreasing eyesight in kids."
+  },
+  {
+   "id": 31836,
+   "name": "Kids Eyewear Sheet Age 10-15",
+   "sourceText": "Non Breakable Rubber plastic sheet for Kids, Best Combination with Uv420 blucut lenses, that reduce the chances of decreasing eyesight in kids."
+  },
+  {
+   "id": 31811,
+   "name": "Fancy Sheet",
+   "sourceText": "Guuci artical on sale Xtra light , durable and comfortable 100% suitable and satisfaction rate Best combination with Uv420 blucut lenses ( Recommend)"
+  },
+  {
+   "id": 31807,
+   "name": "Metal Men's Eyewear",
+   "sourceText": "Mont Blanc is one of the most famous eyewear in all around the world, it's attractive design and color, 100% suitable rate on every mature male faces For more details What's app 03464105613"
+  },
+  {
+   "id": 31800,
+   "name": "Kids Eyewear Age 8 To 10 Years Plastic",
+   "sourceText": "Double color light weight durable and comfortable, 100% suitable rate on every face,best combination with Uv420 lenses,best protection from mobile and screen lights"
+  },
+  {
+   "id": 31660,
+   "name": "Metal Eyewear",
+   "sourceText": "Double color light weight durable and comfortable, 100% suitable rate on every face, best combination with Uv420 lenses, best protection from mobile and screen lights"
+  },
+  {
+   "id": 31647,
+   "name": "Sheet Plastic Waferer Square",
+   "sourceText": "This is the most Demanding Metal design ,100% suitable on every face , perfect design, Color guaranteed , light weight, durables and comfortable Best combination with Uv420 mobile light blocking lenses. Mobile light filter lenses are most beneficial for eyes to reduce strain and headache issues if you have work on computer more then 6 hours then this lenses is perfect for you, We use made in Korea lenses for our valuable customers.. For more details Whatsapp us"
+  },
+  {
+   "id": 31551,
+   "name": "Metal Fancy",
+   "sourceText": "This is the most Demanding Metal design ,100% suitable on every face , perfect design, Color guaranteed , light weight, durables and comfortable Best combination with Uv420 mobile light blocking lenses. Mobile light filter lenses are most beneficial for eyes to reduce strain and headache issues if you have work on computer more then 6 hours then this lenses is perfect for you, We use made in Korea lenses for our valuable customers.. For more details Whatsapp us"
+  },
+  {
+   "id": 31533,
+   "name": "Metal Fancy Halfrimless",
+   "sourceText": "This is the most Demanding Metal design ,100% suitable on every face , perfect design, Color guaranteed , light weight, durables and comfortable Best combination with Uv420 mobile light blocking lenses. Mobile light filter lenses are most beneficial for eyes to reduce strain and headache issues if you have work on computer more then 6 hours then this lenses is perfect for you, We use made in Korea lenses for our valuable customers.. For more details Whatsapp us"
+  },
+  {
+   "id": 31379,
+   "name": "Sheet Plastic Dynamic",
+   "sourceText": "Most demanding design light weight durable and comfortable suitabale on 99% faces best combination with UV420 digital Lenses"
+  },
+  {
+   "id": 31367,
+   "name": "Kids Eyewear Sheet Rubber Plastic",
+   "sourceText": "Best for shararti kids durable and comfortable specially kids fihgting with sibilinks best combination with uv420 blue light filter lenses"
+  },
+  {
+   "id": 31365,
+   "name": "Kids Eyewear Sheet Rubber Plastic",
+   "sourceText": "Best for shararti kids durable and comfortable specially kids fihgting with sibilinks best combination with uv420 blue light filter lenses"
+  },
+  {
+   "id": 31347,
+   "name": "Kids Eyewear Sheet Rubber Plastic",
+   "sourceText": "Best for shararti kids durable and comfortable specially kids fihgting with sibilinks best combination with uv420 blue light filter lenses"
+  },
+  {
+   "id": 31344,
+   "name": "Tranparent Shine White Sheet Plastic",
+   "sourceText": "Best for casual use ,hard sheet plastic , steel metal inside sticks life 2 years expected , best combination with uv420 blue light filter lenses"
+  },
+  {
+   "id": 31342,
+   "name": "Tranparent Shine White Sheet Plastic",
+   "sourceText": "Best for casual use ,hard sheet plastic , steel metal inside sticks life 2 years expected , best combination with uv420 blue light filter lenses"
+  },
+  {
+   "id": 31340,
+   "name": "Tranparent Shine White Sheet Plastic",
+   "sourceText": "Best for casual use ,hard sheet plastic , steel metal inside sticks life 2 years expected , best combination with uv420 blue light filter lenses"
+  },
+  {
+   "id": 31332,
+   "name": "Transparent Shine",
+   "sourceText": "Best for casual use ,hard sheet plastic , steel metal inside sticks life 2 years expected , best combination with uv420 blue light filter lenses"
+  },
+  {
+   "id": 31291,
+   "name": "Sheet Eyewear Cat Eyes Plastic Fancy Frame",
+   "sourceText": "Cat eye most Demanding and trending artica for ever you can combine this with High quality Uv420 blue light filter lenses.."
+  },
+  {
+   "id": 31289,
+   "name": "Sheet Eyewear Fancy Ladies Frame",
+   "sourceText": "Both for causal and party wear, Light weight durable and comfortable Best combination with uv420 blue light filter lenses."
+  },
+  {
+   "id": 31165,
+   "name": "Balle Sheet",
+   "sourceText": "Amazing sheet frame light weight, durable in all weather, black shine color with one year garantee.."
+  },
+  {
+   "id": 31006,
+   "name": "Sheet Eyewear Cat Eye",
+   "sourceText": "Double color light weight durable and comfortable, 100% suitable rate on every face, best combination with Uv420 lenses, best protection from mobile and screen lights"
+  }
+ ],
+ "skipped": [
+  {
+   "id": 31011,
+   "sourceName": "Prod-006",
+   "reason": "no product name and no price in source data — nothing publishable"
+  },
+  {
+   "id": 31004,
+   "sourceName": "Prod-003",
+   "reason": "no product name and no price in source data — nothing publishable"
+  },
+  {
+   "id": 31001,
+   "sourceName": "Prod-002",
+   "reason": "no product name and no price in source data — nothing publishable"
+  },
+  {
+   "id": 30999,
+   "sourceName": "Prod-001",
+   "reason": "no product name and no price in source data — nothing publishable"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anwar-optical.vercel.app/sitemap.xml

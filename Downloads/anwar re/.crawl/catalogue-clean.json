@@ -1,0 +1,1842 @@
+[
+ {
+  "id": 32196,
+  "slug": "product-196",
+  "sourceUrl": "https://anwaroptical.pk/product/32196/",
+  "name": "Product 196",
+  "sourceName": null,
+  "type": "eyeglasses",
+  "category": "Mens",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 3550,
+  "compareAtPrice": 6000,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2026/03/IMG_20260224_2004322-scaled.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "name"
+  ]
+ },
+ {
+  "id": 32172,
+  "slug": "men-s-sheet",
+  "sourceUrl": "https://anwaroptical.pk/product/boss-mens-branded-sheet-unbreakable/",
+  "name": "Men's Sheet",
+  "sourceName": "Boss | Men's Branded | Sheet | Unbreakable",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens"
+  ],
+  "gender": "men",
+  "price": 2950,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000385355.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000385349.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000385337-1.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000385343.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000385344.png"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "brand-claim-removed"
+  ]
+ },
+ {
+  "id": 32166,
+  "slug": "ringmaster",
+  "sourceUrl": "https://anwaroptical.pk/product/rayban-ringmaster-unisex-unbreakable/",
+  "name": "Ringmaster",
+  "sourceName": "RAYBAN | Ringmaster | Unisex | unbreakable",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 2950,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000384890.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000384629.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000384631-1.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000384886.png"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "brand-claim-removed"
+  ]
+ },
+ {
+  "id": 32163,
+  "slug": "sheet-eyewear",
+  "sourceUrl": "https://anwaroptical.pk/product/boss-unisex-unbreakable-sheet-eyewear/",
+  "name": "Sheet Eyewear",
+  "sourceName": "Boss | Unisex | unbreakable | Sheet eyewear",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 2950,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000384367.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000384363.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003843523-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/1000384361.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003838362-scaled.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "brand-claim-removed"
+  ]
+ },
+ {
+  "id": 32151,
+  "slug": "sheet-eyewear-mens",
+  "sourceUrl": "https://anwaroptical.pk/product/dita-sheet-eyewear-mens/",
+  "name": "Sheet Eyewear Mens",
+  "sourceName": "DITA | Sheet eyewear | Mens",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens"
+  ],
+  "gender": "men",
+  "price": 2950,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003838233.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003837923.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003837902.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003837882.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "brand-claim-removed"
+  ]
+ },
+ {
+  "id": 32143,
+  "slug": "metal-ladies-eyewear",
+  "sourceUrl": "https://anwaroptical.pk/product/metal-ladies-eyewear-daily-wear/",
+  "name": "Metal Ladies Eyewear",
+  "sourceName": "Metal | Ladies eyewear | Daily wear",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1650,
+  "compareAtPrice": 2500,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003778582.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003778442.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003778513.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003778393.png"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 32131,
+  "slug": "metal-cat-eye-ladies",
+  "sourceUrl": "https://anwaroptical.pk/product/metal-cat-eye-ladies-fashion-trend2025/",
+  "name": "Metal Cat Eye Ladies",
+  "sourceName": "Metal Cat Eye | Ladies Fashion | Trend2025 |",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1650,
+  "compareAtPrice": 2450,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/IMG_20250130_1426304003.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/IMG_20250130_1424544572.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/IMG_20250130_1425250842.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 32118,
+  "slug": "metal-ladies-eyewear-32118",
+  "sourceUrl": "https://anwaroptical.pk/product/metal-ladies-eyewear-causal-and-daily-wear/",
+  "name": "Metal Ladies Eyewear",
+  "sourceName": "Metal | Ladies eyewear | Causal and daily wear |",
+  "type": "eyeglasses",
+  "category": "Women's",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": 2400,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/10003747832.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/IMG_20250130_142203741_HDR_2-removebg3.png",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/IMG_20250130_1421263133.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/02/IMG_20250130_142221407_HDR3.png"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 32109,
+  "slug": "rounded-metal-ladies-eyewear",
+  "sourceUrl": "https://anwaroptical.pk/product/32109/",
+  "name": "Rounded Metal Ladies Eyewear",
+  "sourceName": "Rounded metal | Ladies eyewear | Unbreakable",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 1150,
+  "compareAtPrice": 2200,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1437253-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1435552-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1435472-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1436152.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1435342.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 32101,
+  "slug": "metal-penta-shape-ladies",
+  "sourceUrl": "https://anwaroptical.pk/product/metal-penta-shape-ladies-best-design-unbreakable/",
+  "name": "Metal Penta Shape Ladies",
+  "sourceName": "Metal | Penta Shape | ladies best Design | unbreakable",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": 2450,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1414328843.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1148548232.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1148430662.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1151198772.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 32099,
+  "slug": "transparent-sheet",
+  "sourceUrl": "https://anwaroptical.pk/product/transparent-sheet-daily-and-rough-use-unbreakable/",
+  "name": "Transparent Sheet",
+  "sourceName": "Transparent | Sheet | Daily and Rough Use | unbreakable",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 1150,
+  "compareAtPrice": 2200,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1433344722.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_143137813_HDR3.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1434532.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1432098473.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250130_1434324.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 32073,
+  "slug": "sapphire-sheet-frame",
+  "sourceUrl": "https://anwaroptical.pk/product/sapphire-sheet-frame-causal-and-daily-use/",
+  "name": "Sapphire Sheet Frame",
+  "sourceName": "Sapphire | Sheet frame | Causal and daily use |",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 950,
+  "compareAtPrice": 2200,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250128_1035510584.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250128_103210827_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250128_103150355_HDR2-1.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250128_1032485472-1.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 32057,
+  "slug": "ladies-glass-sunglass",
+  "sourceUrl": "https://anwaroptical.pk/product/ladies-brand-glass-sunglass/",
+  "name": "Ladies Glass Sunglass",
+  "sourceName": "Ladies Brand | Glass Sunglass |",
+  "type": "sunglasses",
+  "category": "Sunglasses",
+  "subcategory": [],
+  "categorySlugs": [
+   "sunglasses"
+  ],
+  "gender": "women",
+  "price": 1650,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250122_122152580_HDR3.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250122_120436878_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250122_1203420932.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/FJIMG_20250122_1205372-scaled.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31997,
+  "slug": "ladies-eyewear",
+  "sourceUrl": "https://anwaroptical.pk/product/ladies-eyewear-brand-trending-2025-party-and-casual-wear/",
+  "name": "Ladies Eyewear",
+  "sourceName": "Ladies eyewear | Brand | Trending 2025 | party and Casual wear",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1450,
+  "compareAtPrice": 3500,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_1140486773.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_113308026_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_1133390442.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_113356252_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_113252319_HDR2.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31988,
+  "slug": "ladies-fancy-eyewear",
+  "sourceUrl": "https://anwaroptical.pk/product/ladies-fancy-eyewear-brand-casual-and-partywear/",
+  "name": "Ladies Fancy Eyewear",
+  "sourceName": "Ladies Fancy eyewear | Brand | Casual and Partywear",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1650,
+  "compareAtPrice": 3500,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_1137332113.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_112531848_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_112644755_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_112459176_HDR3.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31985,
+  "slug": "ladies-fancy-eyewear-31985",
+  "sourceUrl": "https://anwaroptical.pk/product/ladies-fancy-eyewear-brand-longlife/",
+  "name": "Ladies Fancy Eyewear",
+  "sourceName": "Ladies Fancy eyewear | Brand | longlife",
+  "type": "eyeglasses",
+  "category": "Women's",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1650,
+  "compareAtPrice": 3500,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_1139524893.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/FJIMG_20250125_1147342-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/FJIMG_20250125_1147252.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250125_1152484-scaled.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31945,
+  "slug": "metal-eyewear",
+  "sourceUrl": "https://anwaroptical.pk/product/cartier-metal-eyewear-unisex-branded/",
+  "name": "Metal Eyewear",
+  "sourceName": "Cartier | Metal eyewear | Unisex | Branded",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 2250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20241218_195232836_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20241218_195258062_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20241218_195143722_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20241218_195241851_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20241218_2043212212.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "brand-claim-removed"
+  ]
+ },
+ {
+  "id": 31855,
+  "slug": "kids-eyewear-sheet-age-10-to-15-years",
+  "sourceUrl": "https://anwaroptical.pk/product/kids-eyewear-unbreakable-sheet-age-10-to-15-years/",
+  "name": "Kids Eyewear Sheet Age 10 To 15 Years",
+  "sourceName": "Kids Eyewear | Unbreakable Sheet | age 10 to 15 years",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Kids"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "kids"
+  ],
+  "gender": "kids",
+  "price": 950,
+  "compareAtPrice": 1850,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250121_1201454544.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250121_1139458542.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250121_1138412942.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250121_1139000702.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31836,
+  "slug": "kids-eyewear-sheet-age-10-15",
+  "sourceUrl": "https://anwaroptical.pk/product/kids-eyewear-unbreakable-sheet-grade-7-to-9-students/",
+  "name": "Kids Eyewear Sheet Age 10-15",
+  "sourceName": "Kids Eyewear | Unbreakable Sheet | Age 10-15",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Kids"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "kids"
+  ],
+  "gender": "kids",
+  "price": 950,
+  "compareAtPrice": 1850,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250121_123724355_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250121_114837593_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250121_1148537472.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250121_1149050102.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31811,
+  "slug": "fancy-sheet",
+  "sourceUrl": "https://anwaroptical.pk/product/fancy-sheet-party-wear-and-casual-trends/",
+  "name": "Fancy Sheet",
+  "sourceName": "Fancy Sheet | party wear and Casual | Trends",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": 3200,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250119_134432263_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250119_134721130_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250119_134749470_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250119_134631777_HDR2.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31807,
+  "slug": "metal-men-s-eyewear",
+  "sourceUrl": "https://anwaroptical.pk/product/luxury-metal-mens-eyewear-mont-blanc/",
+  "name": "Metal Men's Eyewear",
+  "sourceName": "Luxury Metal | Men's eyewear | Mont blanc",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens"
+  ],
+  "gender": "men",
+  "price": 2250,
+  "compareAtPrice": 3500,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/quality_restoration_20250119171246958.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/quality_restoration_20250119171211479.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "brand-claim-removed"
+  ]
+ },
+ {
+  "id": 31800,
+  "slug": "kids-eyewear-age-8-to-10-years-plastic",
+  "sourceUrl": "https://anwaroptical.pk/product/kids-eyewear-age-8-to-10-years-nonbreakable-plastic-trends2025/",
+  "name": "Kids Eyewear Age 8 To 10 Years Plastic",
+  "sourceName": "Kids Eyewear | age 8 to 10 years | nonbreakable plastic | Trends2025",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Kids"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "kids"
+  ],
+  "gender": "kids",
+  "price": 750,
+  "compareAtPrice": 1200,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250119_135324694_HDR4.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250119_135324694_HDR4.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20250119_140241395_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_202501191417199202-1.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31767,
+  "slug": "metal-eyewear-31767",
+  "sourceUrl": "https://anwaroptical.pk/product/metal-eyewear-trends-hot-design-casual-and-party-wear/",
+  "name": "Metal Eyewear",
+  "sourceName": "Metal eyewear | Trends | Hot design |Casual and Party wear",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens"
+  ],
+  "gender": "men",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-15-at-3.33.35-PM-3.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-15-at-3.33.34-PM.jpeg"
+  ],
+  "description": null,
+  "attributes": {
+   "color": [
+    "Brown",
+    "Golden",
+    "Grey",
+    "Silver"
+   ],
+   "size": [
+    "52"
+   ]
+  },
+  "isVariable": true,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31671,
+  "slug": "fancy-metal-eyewear",
+  "sourceUrl": "https://anwaroptical.pk/product/fancy-metal-new-trends-2025-casual-and-party-wear-eyewear/",
+  "name": "Fancy Metal Eyewear",
+  "sourceName": "Fancy Metal | New Trends 2025 | Casual and party wear | eyewear",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens"
+  ],
+  "gender": "men",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-15-at-3.33.36-PM-2.jpeg"
+  ],
+  "description": null,
+  "attributes": {
+   "color": [
+    "Black",
+    "Brown",
+    "Golden",
+    "Grey",
+    "Silver"
+   ],
+   "size": [
+    "52"
+   ]
+  },
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31660,
+  "slug": "metal-eyewear-31660",
+  "sourceUrl": "https://anwaroptical.pk/product/meta/",
+  "name": "Metal Eyewear",
+  "sourceName": "Metal eyewear | Trends | Hot design",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens"
+  ],
+  "gender": "men",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-15-at-3.33.36-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/WhatsApp-Image-2025-01-15-at-3.33.35-PM.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31647,
+  "slug": "sheet-plastic-waferer-square",
+  "sourceUrl": "https://anwaroptical.pk/product/sheet-plastic-waferer-square/",
+  "name": "Sheet Plastic Waferer Square",
+  "sourceName": "Sheet plastic | waferer | square",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 950,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20241218_191737420_HDR3.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2025/01/IMG_20241218_192640271_HDR2.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31551,
+  "slug": "metal-fancy",
+  "sourceUrl": "https://anwaroptical.pk/product/31551/",
+  "name": "Metal Fancy",
+  "sourceName": "Metal Fancy | Branded | partywear &Casual",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens"
+  ],
+  "gender": "men",
+  "price": 2500,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-20-at-8.08.01-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-20-at-8.08.04-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-20-at-8.08.04-PM.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31533,
+  "slug": "metal-fancy-halfrimless",
+  "sourceUrl": "https://anwaroptical.pk/product/metal-fancy-branded-halfrimless-partywear-casual/",
+  "name": "Metal Fancy Halfrimless",
+  "sourceName": "Metal Fancy | Branded | Halfrimless | partywear &Casual",
+  "type": "eyeglasses",
+  "category": "Mens",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "mens"
+  ],
+  "gender": "men",
+  "price": 2250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/12/IMG_20241218_203334693_HDR2.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31379,
+  "slug": "sheet-plastic-dynamic",
+  "sourceUrl": "https://anwaroptical.pk/product/sheet-plastic-dynamic-design-unisex/",
+  "name": "Sheet Plastic Dynamic",
+  "sourceName": "sheet plastic | Dynamic Design | Unisex",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens"
+  ],
+  "gender": "men",
+  "price": 1550,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/12/20240605_192103.jpg"
+  ],
+  "description": null,
+  "attributes": {
+   "lens": [
+    "Simple white (Korean) 700/",
+    "Multicoat (Korea) 1000/",
+    "Blucut lense (Korea)\n1500/ (recommended)",
+    "Blucut lens China 1000/-",
+    "Transition photogrey Korean 2500/-",
+    "Transition photogrey China 1800/-",
+    "Cr HI-Q Hydrophobic Scratch less 2800/-",
+    "Drive safe 2500/- Green coating",
+    "Drive safe 3500/- Blue coating (Korea)",
+    "Bifocal lens Readymade 1500/-",
+    "Bifocal make to order multicoat 3500/-",
+    "Progressive multicoat Readymade 2500/-",
+    "Progressive make to order simple white 4000/-",
+    "Progressive multicoat coating Cyl number 4500/-",
+    "Drive safe Progressive 12500/- Singapore"
+   ]
+  },
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31367,
+  "slug": "kids-eyewear-sheet-rubber-plastic",
+  "sourceUrl": "https://anwaroptical.pk/product/kids-eyewear-sheet-non-breable-casual-rubber-plastic-3/",
+  "name": "Kids Eyewear Sheet Rubber Plastic",
+  "sourceName": "kids eyewear | sheet non breable | casual rubber plastic | 6 to 9 years",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Kids"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "kids"
+  ],
+  "gender": "kids",
+  "price": 750,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20240221_1824528503.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20240221_182445350_HDR3.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31365,
+  "slug": "kids-eyewear-sheet-rubber-plastic-31365",
+  "sourceUrl": "https://anwaroptical.pk/product/kids-eyewear-sheet-non-breable-casual-rubber-plastic-2/",
+  "name": "Kids Eyewear Sheet Rubber Plastic",
+  "sourceName": "kids eyewear | sheet non breable | casual rubber plastic",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Kids"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "kids"
+  ],
+  "gender": "kids",
+  "price": 750,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20231218_142101068_HDR2-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20231218_142837939_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20231218_141948392_HDR2-scaled.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31347,
+  "slug": "kids-eyewear-sheet-rubber-plastic-31347",
+  "sourceUrl": "https://anwaroptical.pk/product/kids-eyewear-sheet-non-breable-casual-rubber-plastic/",
+  "name": "Kids Eyewear Sheet Rubber Plastic",
+  "sourceName": "kids eyewear | sheet non breable | casual rubber plastic",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Kids"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "kids"
+  ],
+  "gender": "kids",
+  "price": 750,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20231218_142253519_HDR2-e1735649850731.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20231218_142425386_HDR3.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20231218_142414423_HDR2.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31344,
+  "slug": "tranparent-shine-white-sheet-plastic",
+  "sourceUrl": "https://anwaroptical.pk/product/tranparent-shine-white-sheet-plastic-ladies-design-3/",
+  "name": "Tranparent Shine White Sheet Plastic",
+  "sourceName": "Tranparent | shine white | sheet plastic | ladies design",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-29-at-8.41.22-PM.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31342,
+  "slug": "tranparent-shine-white-sheet-plastic-31342",
+  "sourceUrl": "https://anwaroptical.pk/product/tranparent-shine-white-sheet-plastic-ladies-design-2/",
+  "name": "Tranparent Shine White Sheet Plastic",
+  "sourceName": "Tranparent | shine white | sheet plastic | ladies design",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_191702582_HDR2.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31340,
+  "slug": "tranparent-shine-white-sheet-plastic-31340",
+  "sourceUrl": "https://anwaroptical.pk/product/tranparent-shine-white-sheet-plastic-ladies-design/",
+  "name": "Tranparent Shine White Sheet Plastic",
+  "sourceName": "Tranparent | shine white | sheet plastic | ladies design",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_191621835_HDR2.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31332,
+  "slug": "transparent-shine",
+  "sourceUrl": "https://anwaroptical.pk/product/transparent-shine-unisex-casual-use/",
+  "name": "Transparent Shine",
+  "sourceName": "transparent | shine | unisex | casual use",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_192742099_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-29-at-7.43.57-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-11-29-at-7.43.57-PM-2.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31330,
+  "slug": "mate-sheet-transparent-light-weight",
+  "sourceUrl": "https://anwaroptical.pk/product/mate-sheet-transparent-light-weight-casual-unisex/",
+  "name": "Mate Sheet Transparent Light Weight",
+  "sourceName": "Mate sheet | transparent | light weight | casual | unisex",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 750,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_1849158052-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_1849434212.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_184844758-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_1849530872.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31325,
+  "slug": "mate-transparent-sheet-flexible-plastic-frame",
+  "sourceUrl": "https://anwaroptical.pk/product/mate-transparent-sheet-unisex-artical-flexible-plastic-frame/",
+  "name": "Mate Transparent Sheet Flexible Plastic Frame",
+  "sourceName": "mate transparent sheet | unisex artical | flexible plastic frame",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 950,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_1846504442.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_1848093542-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241126_185221696_HDR2-scaled.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31293,
+  "slug": "sheet-eyewear-ladies-plastic-dual-color-rounded",
+  "sourceUrl": "https://anwaroptical.pk/product/31293/",
+  "name": "Sheet Eyewear Ladies Plastic Dual Color Rounded",
+  "sourceName": "Sheet eyewear | ladies casual use | plastic dual color rounded",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.17-PM-2.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.17-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.17-PM.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31291,
+  "slug": "sheet-eyewear-cat-eyes-plastic-fancy-frame",
+  "sourceUrl": "https://anwaroptical.pk/product/sheet-eyewear-cat-eyes-plastic-fancy-frame/",
+  "name": "Sheet Eyewear Cat Eyes Plastic Fancy Frame",
+  "sourceName": "Sheet eyewear | Cat eyes | Plastic Fancy frame",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.49-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.50-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.49-PM-1.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31289,
+  "slug": "sheet-eyewear-fancy-ladies-frame",
+  "sourceUrl": "https://anwaroptical.pk/product/sheet-eyewear-fancy-ladies-frame/",
+  "name": "Sheet Eyewear Fancy Ladies Frame",
+  "sourceName": "Sheet eyewear | Fancy Ladies frame",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.51-PM-3.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.52-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.51-PM-2.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31275,
+  "slug": "sheet-frame-ladies-malysia-color",
+  "sourceUrl": "https://anwaroptical.pk/product/sheet-frame-ladies-design-malysia-color/",
+  "name": "Sheet Frame Ladies Malysia Color",
+  "sourceName": "sheet frame | ladies design | malysia color",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1550,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.36-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.36-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.35-PM-2.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31273,
+  "slug": "sheet-frame-ladies-article",
+  "sourceUrl": "https://anwaroptical.pk/product/sheet-frame-ladies-article-casual-use/",
+  "name": "Sheet Frame Ladies Article",
+  "sourceName": "sheet frame | ladies article | casual use |",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1550,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.28-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.28-PM.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31268,
+  "slug": "level-nine-metal-fancy",
+  "sourceUrl": "https://anwaroptical.pk/product/level-nine-metal-fancy-unisex-design/",
+  "name": "Level Nine Metal Fancy",
+  "sourceName": "Level nine | metal fancy | Unisex design",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Uncategorized",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "uncategorized",
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1500,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.22-PM-2.jpeg"
+  ],
+  "description": null,
+  "attributes": {
+   "frame": [
+    "Plastic",
+    "Glass"
+   ]
+  },
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31227,
+  "slug": "sheet-frame-ladies-eyewear-made-in-taiwan",
+  "sourceUrl": "https://anwaroptical.pk/product/sheet-frame-ladies-eyewear-made-in-taiwan/",
+  "name": "Sheet Frame Ladies Eyewear Made In Taiwan",
+  "sourceName": "Sheet frame | ladies eyewear | made in Taiwan",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.15-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.15-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.08-PM-1.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31222,
+  "slug": "sheet-eyewear-original-plastic",
+  "sourceUrl": "https://anwaroptical.pk/product/sheet-eyewear-original-plastic/",
+  "name": "Sheet Eyewear Original Plastic",
+  "sourceName": "Sheet eyewear |original plastic",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.29-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.29-PM.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31191,
+  "slug": "ocher-made-in-korea",
+  "sourceUrl": "https://anwaroptical.pk/product/ocher-made-in-korea/",
+  "name": "Ocher (Made In Korea)",
+  "sourceName": "OCHER (made in Korea)",
+  "type": "contact-lens",
+  "category": "Contact Lenses",
+  "subcategory": [
+   "Magic Eye"
+  ],
+  "categorySlugs": [
+   "contact-lenses",
+   "magic-eye"
+  ],
+  "gender": null,
+  "price": 2250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/Ocher.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31188,
+  "slug": "huskey-brown",
+  "sourceUrl": "https://anwaroptical.pk/product/huskey-brown/",
+  "name": "Huskey Brown",
+  "sourceName": "Huskey Brown",
+  "type": "contact-lens",
+  "category": "Contact Lenses",
+  "subcategory": [
+   "Magic Eye"
+  ],
+  "categorySlugs": [
+   "contact-lenses",
+   "magic-eye"
+  ],
+  "gender": null,
+  "price": 2250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/Huskey-Brown.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31170,
+  "slug": "lumerier-grey",
+  "sourceUrl": "https://anwaroptical.pk/product/lumerier-grey/",
+  "name": "Lumerier Grey",
+  "sourceName": "Lumerier Grey",
+  "type": "contact-lens",
+  "category": "Contact Lenses",
+  "subcategory": [
+   "Magic Eye"
+  ],
+  "categorySlugs": [
+   "contact-lenses",
+   "magic-eye"
+  ],
+  "gender": null,
+  "price": 2250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/Lumerier-Grey.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/Lumerier-Grey.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31165,
+  "slug": "balle-sheet",
+  "sourceUrl": "https://anwaroptical.pk/product/balle-sheet-unisex/",
+  "name": "Balle Sheet",
+  "sourceName": "BALLE sheet | Unisex",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1199,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.37-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.38-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.38-PM.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31161,
+  "slug": "discovery-sheet-hard-plastic",
+  "sourceUrl": "https://anwaroptical.pk/product/discovery-sheet-hard-plastic/",
+  "name": "Discovery Sheet Hard Plastic",
+  "sourceName": "Discovery Sheet | Hard plastic",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens"
+  ],
+  "gender": "men",
+  "price": 1550,
+  "compareAtPrice": 3200,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241107_1937337082.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241107_194520079_HDR2.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241107_194614464_HDR2-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241107_1937483732-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20241107_194605347_HDR2-scaled.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31147,
+  "slug": "sheet-transparent",
+  "sourceUrl": "https://anwaroptical.pk/product/sheet-transparent-unisex/",
+  "name": "Sheet Transparent",
+  "sourceName": "Sheet transparent Unisex",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Mens",
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "mens",
+   "womens"
+  ],
+  "gender": "unisex",
+  "price": 1099,
+  "compareAtPrice": 1999,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.25-PM-1.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31141,
+  "slug": "mate-transparent",
+  "sourceUrl": "https://anwaroptical.pk/product/rayban-mate-transparent/",
+  "name": "Mate Transparent",
+  "sourceName": "Rayban mate Transparent",
+  "type": "sunglasses",
+  "category": "Sunglasses",
+  "subcategory": [
+   "Men's"
+  ],
+  "categorySlugs": [
+   "mens-sunglasses",
+   "sunglasses"
+  ],
+  "gender": "men",
+  "price": 1850,
+  "compareAtPrice": 3500,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20240816_1934131272-1-scaled.jpg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20240816_1935323182-scaled.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "brand-claim-removed"
+  ]
+ },
+ {
+  "id": 31135,
+  "slug": "aviator-goldengreen",
+  "sourceUrl": "https://anwaroptical.pk/product/rayban-aviator-goldengreen/",
+  "name": "Aviator Goldengreen",
+  "sourceName": "RayBan Aviator GoldenGreen",
+  "type": "sunglasses",
+  "category": "Sunglasses",
+  "subcategory": [
+   "Men's"
+  ],
+  "categorySlugs": [
+   "mens-sunglasses",
+   "sunglasses"
+  ],
+  "gender": "men",
+  "price": 2250,
+  "compareAtPrice": 5500,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/IMG_20240815_173231633_HDR3-scaled.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "brand-claim-removed"
+  ]
+ },
+ {
+  "id": 31128,
+  "slug": "rb3689-bi-gradient",
+  "sourceUrl": "https://anwaroptical.pk/product/ray-ban-rb3689-bi-gradient/",
+  "name": "Rb3689 Bi-gradient",
+  "sourceName": "RAY BAN RB3689 BI-GRADIENT",
+  "type": "sunglasses",
+  "category": "Sunglasses",
+  "subcategory": [
+   "Men's"
+  ],
+  "categorySlugs": [
+   "mens-sunglasses",
+   "sunglasses"
+  ],
+  "gender": "men",
+  "price": 2250,
+  "compareAtPrice": 3500,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/20240823_210400.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": [
+   "brand-claim-removed"
+  ]
+ },
+ {
+  "id": 31045,
+  "slug": "platinum-grey",
+  "sourceUrl": "https://anwaroptical.pk/product/platinum-grey/",
+  "name": "Platinum Grey",
+  "sourceName": "Platinum Grey",
+  "type": "contact-lens",
+  "category": "Contact Lenses",
+  "subcategory": [
+   "Magic Eye"
+  ],
+  "categorySlugs": [
+   "contact-lenses",
+   "magic-eye"
+  ],
+  "gender": null,
+  "price": 2250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/Platinium-Grey.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31039,
+  "slug": "sabrin-grey-green",
+  "sourceUrl": "https://anwaroptical.pk/product/sabrin-grey-green/",
+  "name": "Sabrin Grey-green",
+  "sourceName": "Sabrin grey-green",
+  "type": "contact-lens",
+  "category": "Contact Lenses",
+  "subcategory": [
+   "Magic Eye"
+  ],
+  "categorySlugs": [
+   "contact-lenses",
+   "magic-eye"
+  ],
+  "gender": null,
+  "price": 2250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/Sabrin-Grey-Green.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31036,
+  "slug": "topaz-color-contact-lense",
+  "sourceUrl": "https://anwaroptical.pk/product/topaz-color-contact-lense/",
+  "name": "Topaz Color Contact Lense",
+  "sourceName": "Topaz color contact lense",
+  "type": "contact-lens",
+  "category": "Contact Lenses",
+  "subcategory": [
+   "Magic Eye"
+  ],
+  "categorySlugs": [
+   "contact-lenses",
+   "magic-eye"
+  ],
+  "gender": null,
+  "price": 2250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/Topaz.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31018,
+  "slug": "amber-gold",
+  "sourceUrl": "https://anwaroptical.pk/product/amber-gold/",
+  "name": "Amber Gold",
+  "sourceName": "Amber Gold",
+  "type": "contact-lens",
+  "category": "Magic Eye",
+  "subcategory": [
+   "Magic Eye"
+  ],
+  "categorySlugs": [
+   "magic-eye"
+  ],
+  "gender": null,
+  "price": 2250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/Amber-gold.jpg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31006,
+  "slug": "sheet-eyewear-cat-eye",
+  "sourceUrl": "https://anwaroptical.pk/product/prod-004/",
+  "name": "Sheet Eyewear Cat Eye",
+  "sourceName": "Sheet eyewear | Cat eye | Casual wear",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 750,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.43-PM-2.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.43-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.42-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.43-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.43-PM-2.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ },
+ {
+  "id": 31008,
+  "slug": "sheet-eyewear-daimond-cut-pink-transparent-ladies-frame",
+  "sourceUrl": "https://anwaroptical.pk/product/prod-005/",
+  "name": "Sheet Eyewear Daimond Cut Pink Transparent Ladies Frame",
+  "sourceName": "sheet eyewear | Daimond cut pink Transparent | ladies frame",
+  "type": "eyeglasses",
+  "category": "Eyewear",
+  "subcategory": [
+   "Women's"
+  ],
+  "categorySlugs": [
+   "eyewear",
+   "womens"
+  ],
+  "gender": "women",
+  "price": 1250,
+  "compareAtPrice": null,
+  "currency": "PKR",
+  "images": [
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.41-PM-1.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.41-PM.jpeg",
+   "https://anwaroptical.pk/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-23-at-6.01.42-PM.jpeg"
+  ],
+  "description": null,
+  "attributes": null,
+  "isVariable": false,
+  "ownerReviewFields": []
+ }
+]

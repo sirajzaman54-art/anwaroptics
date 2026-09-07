@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script>document.documentElement.classList.add('js')</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Will It Fit? | Anwar Optical</title>
+<meta name="description" content="Compare a frame's listed size with your current glasses before you order from Anwar Optical.">
+<link rel="canonical" href="https://anwar-optical.vercel.app/will-it-fit">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --o-50:#FEF2E9; --o-100:#FCE0CC; --o-300:#F5A66E; --o-500:#F0722C; --o-600:#DB5F1B; --o-700:#B44C15; --o-800:#8C3B10;
+  --ink:#14212B; --ink-2:#0D1720; --ink-3:#1D2E3B;
+  --paper:#FFFFFF; --cream:#FAF7F3; --cream-2:#F3EEE7;
+  --line:#E8E1D8; --line-d:rgba(255,255,255,.12);
+  --text:#14212B; --soft:#6E6862; --soft-2:#756D65; --sale:#D33A2F;
+  --ease:cubic-bezier(.32,.72,0,1); --gut:clamp(18px,4vw,56px); --r:14px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--cream);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+h1,h2,h3{font-family:'Outfit',system-ui,sans-serif;line-height:1.08;letter-spacing:-.02em;font-weight:600;text-wrap:balance}
+.wrap{max-width:1280px;margin:0 auto;padding-inline:var(--gut)}
+.script{font-family:'Caveat',cursive;font-weight:600}
+.focus-ring:focus-visible{outline:2px solid var(--o-600);outline-offset:3px;border-radius:6px}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:'Outfit',sans-serif;font-size:15px;font-weight:600;padding:13px 24px;min-height:46px;border-radius:8px;cursor:pointer;border:1.5px solid transparent;transition:background 200ms var(--ease),color 200ms var(--ease),border-color 200ms var(--ease)}
+.btn-o{background:var(--o-700);color:#fff}
+@media (hover:hover){.btn-o:hover{background:var(--o-800)}}
+.btn-line{border-color:var(--line);background:var(--paper);color:var(--text)}
+@media (hover:hover){.btn-line:hover{border-color:var(--ink);background:var(--ink);color:#fff}}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+
+.announce{background:#F68F12;color:var(--ink);font-size:12.5px}
+.announce-in{max-width:1280px;margin:0 auto;padding:9px var(--gut);display:flex;align-items:center;justify-content:space-between;gap:20px}
+.announce-r{display:flex;align-items:center;gap:26px}
+.announce span,.announce a{display:inline-flex;align-items:center;gap:7px}
+.announce svg{opacity:.75;flex-shrink:0}
+@media (max-width:900px){.announce-r{display:none}.announce-in{justify-content:center}}
+
+header{position:sticky;top:0;z-index:70;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.headerbar{max-width:1280px;margin:0 auto;padding-inline:var(--gut);height:74px;display:flex;align-items:center;gap:clamp(14px,2.4vw,36px)}
+.logo img{height:40px;width:auto}
+nav.primary{display:flex;gap:2px;margin-right:auto}
+nav.primary>a{font-family:'Outfit',sans-serif;font-size:14.5px;font-weight:500;color:var(--text);padding:8px 13px;border-radius:7px;transition:color 180ms var(--ease),background 180ms var(--ease)}
+@media (hover:hover){nav.primary>a:hover{color:var(--o-600);background:var(--o-50)}}
+.nav-drop{position:relative;display:flex;align-items:center}
+.nav-drop-link{display:inline-flex;align-items:center;gap:4px;font-family:'Outfit',sans-serif;font-size:14.5px;font-weight:500;color:var(--text);padding:8px 13px;border-radius:7px;transition:color 180ms var(--ease),background 180ms var(--ease)}
+.nav-drop-link svg{color:var(--soft-2);transition:transform 180ms var(--ease),color 180ms var(--ease)}
+@media (hover:hover){.nav-drop-link:hover{color:var(--o-600);background:var(--o-50)}}
+.nav-drop:hover .nav-drop-link,.nav-drop:focus-within .nav-drop-link{color:var(--o-600);background:var(--o-50)}
+.nav-drop:hover .nav-drop-link svg,.nav-drop:focus-within .nav-drop-link svg{transform:rotate(180deg);color:var(--o-600)}
+.nav-drop-menu{position:absolute;top:100%;left:0;margin-top:2px;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 16px 32px -14px rgba(20,33,43,.24);padding:6px;min-width:168px;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity 160ms var(--ease),transform 160ms var(--ease),visibility 160ms;z-index:90}
+.nav-drop:hover .nav-drop-menu,.nav-drop:focus-within .nav-drop-menu{opacity:1;visibility:visible;transform:translateY(0)}
+.nav-drop-menu a{display:block;padding:9px 12px;border-radius:7px;font-family:'Outfit',sans-serif;font-size:14px;font-weight:500;color:var(--text)}
+@media (hover:hover){.nav-drop-menu a:hover{background:var(--o-50);color:var(--o-700)}}
+.hactions{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.icon-btn{width:42px;height:42px;border-radius:9px;display:grid;place-items:center;color:var(--text);background:transparent;border:none;cursor:pointer;transition:background 180ms var(--ease)}
+@media (hover:hover){.icon-btn:hover{background:var(--cream-2)}}
+.cart-btn{position:relative}
+.cart-badge{position:absolute;top:4px;right:3px;min-width:18px;height:18px;padding:0 5px;border-radius:99px;background:var(--o-700);color:#fff;font-size:11px;font-weight:700;font-family:'Outfit',sans-serif;display:grid;place-items:center}
+.menu-btn{display:none}.msearch-btn{display:none}
+@media (max-width:1080px){nav.primary{display:none}.menu-btn{display:grid}.msearch-btn{display:grid}.headerbar{height:64px}.logo img{height:32px}}
+.hsearch{position:relative;flex:0 1 300px;margin-left:auto}
+@media (max-width:1080px){.hsearch{display:none}}
+.hsearch-field{display:flex;align-items:center;gap:9px;background:var(--cream);border:1.5px solid var(--line);border-radius:9px;padding:0 13px;height:42px}
+.hsearch-field:focus-within{border-color:var(--o-500);background:#fff}
+.hsearch-field svg{color:var(--soft-2);flex-shrink:0}
+.hsearch-field input{flex:1;min-width:0;border:none;background:none;outline:none;font-family:inherit;font-size:14px;color:var(--text)}
+.hs-panel{position:absolute;top:calc(100% + 8px);left:0;right:0;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 20px 40px -18px rgba(20,33,43,.28);overflow:hidden;z-index:80;max-height:min(64vh,440px);overflow-y:auto}
+.hs-res{display:flex;align-items:center;gap:11px;padding:9px 12px;width:100%;background:none;border:none;cursor:pointer;text-align:left}
+@media (hover:hover){.hs-res:hover{background:var(--o-50)}}
+.hs-res.is-hl{background:var(--o-50)}
+.hs-res img{width:42px;height:42px;object-fit:cover;border-radius:7px;background:var(--cream);flex-shrink:0}
+.hs-name{font-size:13.5px;font-weight:600;font-family:'Outfit',sans-serif;display:block}
+.hs-meta{font-size:11.5px;color:var(--soft);display:block}
+.hs-empty{padding:20px;text-align:center;color:var(--soft);font-size:13.5px}
+
+.mnav-bd{position:fixed;inset:0;z-index:220;background:rgba(13,23,32,.5);opacity:0;transition:opacity 220ms var(--ease)}
+.mnav-bd.is-open{opacity:1}
+.mnav{position:absolute;top:0;left:0;height:100%;width:min(330px,86%);background:#fff;display:flex;flex-direction:column;transform:translateX(-100%);transition:transform 320ms var(--ease)}
+.mnav-bd.is-open .mnav{transform:none}
+.mnav-hd{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid var(--line)}
+.mnav-hd img{height:34px}
+.x-btn{width:38px;height:38px;border-radius:9px;border:none;background:var(--cream);cursor:pointer;display:grid;place-items:center;font-size:16px}
+.mnav-links{flex:1;overflow-y:auto;padding:8px 20px}
+.mnav-links a{display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--line);font-family:'Outfit',sans-serif;font-size:15.5px;font-weight:500;min-height:48px}
+.mnav-links a:last-child{border-bottom:none}
+.mnav-links .lbl{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--soft-2);padding:16px 0 6px;display:block}
+.mnav-ft{padding:18px 20px;border-top:1px solid var(--line)}
+
+section{padding-block:clamp(34px,4.6vw,58px)}
+.crumb{font-size:12.5px;color:var(--soft);padding-block:16px 0}
+.crumb a{color:var(--soft)}
+
+.t-hero{position:relative;background:var(--ink);overflow:hidden;isolation:isolate;padding-block:0}
+.t-figure img{width:100%;height:clamp(260px,34vw,400px);object-fit:cover;object-position:50% 42%}
+.t-hero::after{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(0deg,rgba(13,23,32,.94) 0%,rgba(13,23,32,.55) 45%,rgba(13,23,32,.2) 100%)}
+.t-hero-in{position:absolute;z-index:2;left:0;right:0;bottom:0;padding-block:clamp(24px,3.4vw,42px)}
+.t-hero-in .script{font-size:clamp(20px,2.4vw,26px);color:var(--o-300)}
+.t-hero-in h1{font-size:clamp(28px,3.8vw,44px);color:#fff;max-width:20ch;margin-top:4px}
+.t-hero-in p{color:rgba(255,255,255,.78);font-size:14.5px;max-width:56ch;margin-top:10px}
+
+p.lede{color:var(--soft);font-size:14.5px;max-width:60ch;margin-bottom:26px}
+
+.card-box{border:1px solid var(--line);border-radius:var(--r);padding:22px;margin-bottom:20px;min-width:0;background:var(--paper)}
+.card-box h2{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--soft);margin-bottom:14px;font-family:'Outfit',sans-serif}
+
+.product-picker{display:flex;gap:12px;align-items:center;margin-bottom:8px;min-width:0}
+.product-picker select{flex:1;min-width:0;width:100%;font-family:inherit;font-size:14.5px;padding:12px 14px;border-radius:8px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink)}
+.picked-product{display:flex;gap:14px;align-items:center;margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.picked-product img{width:64px;height:64px;object-fit:cover;border-radius:8px;border:1px solid var(--line)}
+.picked-product b{display:block;font-size:14.5px}
+.picked-product span{font-size:12.5px;color:var(--soft)}
+
+.field-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:12px}
+@media (max-width:560px){.field-row{grid-template-columns:1fr}}
+.field label{display:block;font-size:12.5px;font-weight:700;margin-bottom:6px}
+.field input{width:100%;font-family:inherit;font-size:14.5px;padding:11px 13px;border-radius:8px;border:1.5px solid var(--line);background:var(--paper);color:var(--ink)}
+.field input:focus{outline:2px solid var(--o-600);outline-offset:1px;border-color:var(--o-500)}
+.field-error{color:var(--sale);font-size:12px;margin-top:4px;display:none}
+.field.has-error input{border-color:var(--sale)}
+.field.has-error .field-error{display:block}
+.hint{font-size:12.5px;color:var(--soft);margin-top:6px}
+
+.compare-table{width:100%;border-collapse:collapse;font-size:14px;margin-bottom:16px}
+.compare-table th,.compare-table td{padding:10px 8px;border-bottom:1px solid var(--line);text-align:left}
+.compare-table th{font-size:11.5px;text-transform:uppercase;letter-spacing:.03em;color:var(--soft)}
+.diff-note{font-size:14.5px;font-weight:700;padding:14px 16px;border-radius:10px;background:var(--o-50);border:1px solid var(--line)}
+
+.na-box{text-align:center;padding:24px;border:1.5px dashed var(--line);border-radius:10px}
+.na-box p{color:var(--soft);font-size:14px;margin-bottom:14px}
+
+footer{background:var(--ink);color:rgba(255,255,255,.62);padding-block:clamp(48px,6vw,72px) 24px}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr 1.1fr;gap:clamp(22px,3.4vw,40px);margin-bottom:40px}
+.foot-brand img{height:32px;margin-bottom:14px;background:#fff;padding:6px 10px;border-radius:8px}
+.foot-brand p{font-size:13px;line-height:1.6;max-width:32ch;margin-bottom:14px}
+.foot-social a{width:36px;height:36px;border-radius:9px;background:rgba(255,255,255,.08);display:inline-grid;place-items:center;color:#fff}
+footer h3{color:#fff;font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;margin-bottom:14px;font-family:'Outfit',sans-serif}
+footer ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+footer ul a{font-size:13px}
+@media (hover:hover){footer ul a:hover{color:var(--o-300)}}
+.foot-contact li{display:flex;align-items:flex-start;gap:9px;font-size:13px;line-height:1.4}
+.foot-contact svg{flex-shrink:0;margin-top:2px;color:var(--o-300)}
+.foot-base{border-top:1px solid var(--line-d);padding-top:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px}
+@media (max-width:1080px){.foot-grid{grid-template-columns:1fr 1fr 1fr}}
+@media (max-width:640px){.foot-grid{grid-template-columns:1fr 1fr}}
+
+.cart-bd{position:fixed;inset:0;z-index:210;background:rgba(13,23,32,.5);opacity:0;transition:opacity 220ms var(--ease)}
+.cart-bd.is-open{opacity:1}
+.cart-dr{position:absolute;top:0;right:0;height:100%;width:min(400px,100%);background:#fff;display:flex;flex-direction:column;transform:translateX(100%);transition:transform 320ms var(--ease)}
+.cart-bd.is-open .cart-dr{transform:none}
+.cart-hd{display:flex;align-items:center;justify-content:space-between;padding:18px 20px;border-bottom:1px solid var(--line)}
+.cart-items{flex:1;overflow-y:auto;padding:14px 20px}
+.cart-empty{color:var(--soft);font-size:14px;padding:20px 0}
+.ci{display:flex;align-items:flex-start;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+.ci img{width:56px;height:56px;object-fit:cover;border-radius:8px;flex-shrink:0;background:var(--cream)}
+.ci-b{flex:1;min-width:0}.ci-n{font-size:13.5px;font-weight:700}.ci-m{font-size:12px;color:var(--soft);margin-bottom:6px}
+.ci-r{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.ci-q{display:flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:6px;padding:2px 8px}
+.ci-q button{background:none;border:none;font-size:14px;font-weight:700;cursor:pointer;padding:2px 4px}
+.ci-q span{font-size:12.5px;font-weight:700;min-width:14px;text-align:center}
+.ci-p{font-size:13px;font-weight:700}
+.ci-x{background:none;border:none;color:var(--soft);font-size:13px;cursor:pointer;padding:4px;flex-shrink:0}
+.cart-ft{padding:18px 20px;border-top:1px solid var(--line)}
+.cart-sub{display:flex;justify-content:space-between;font-size:14.5px;margin-bottom:14px}
+.cart-ft .btn{width:100%;margin-bottom:8px}
+.cart-note{font-size:11.5px;color:var(--soft-2);margin-top:8px;text-align:center}
+</style>
+</head>
+<body>
+
+<div class="announce">
+  <div class="announce-in">
+    <span>A Karachi optician since 1968</span>
+    <div class="announce-r">
+      <span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>Visit our counter in Shah Faisal Colony, Karachi</span>
+      <a href="https://wa.me/923327931623" target="_blank" rel="noopener"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.5-.6-2.7-1.2-4.4-3.9-4.6-4.1-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2 0 .4-.1.5l-.3.4c-.1.2-.3.3-.1.6.1.2.6 1.1 1.4 1.7 1 .8 1.7 1.1 2 1.2.2.1.4.1.5-.1l.7-.8c.2-.2.3-.2.6-.1l1.7.8c.2.1.4.2.5.3.1.2.1.7-.1 1.3Z"/></svg>Get help on WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<header>
+  <div class="headerbar">
+    <a href="/" class="logo focus-ring" aria-label="Anwar Optical home"><img src="/brand/logo.webp" alt="Anwar Optical, established 1968"></a>
+    <nav class="primary" aria-label="Primary">
+      <a href="/eyeglasses" class="focus-ring">Eyeglasses</a>
+      <a href="/sunglasses" class="focus-ring">Sunglasses</a>
+      <a href="/contact-lenses" class="focus-ring">Contact Lenses</a>
+      <a href="/offers" class="focus-ring">Offers</a>
+      <div class="nav-drop">
+        <a href="/about" class="focus-ring nav-drop-link">Our Story <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></a>
+        <div class="nav-drop-menu">
+          <a href="/certifications" class="focus-ring">Certifications</a>
+        </div>
+      </div>
+      <a href="/tools" class="focus-ring">Tools</a>
+    </nav>
+    <div class="hsearch">
+      <div class="hsearch-field">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.2-4.2"/></svg>
+        <input type="text" id="hsInput" placeholder="Search frames, sunglasses…" autocomplete="off" aria-label="Search products">
+      </div>
+      <div class="hs-panel" id="hsPanel" hidden></div>
+    </div>
+    <div class="hactions">
+      <a href="/search" class="icon-btn focus-ring msearch-btn" aria-label="Search">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20.5 20.5-4.2-4.2"/></svg>
+      </a>
+      <button class="icon-btn focus-ring cart-btn" id="cartOpen" aria-label="Open cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-badge" id="cartCount">0</span>
+      </button>
+      <button class="icon-btn focus-ring menu-btn" id="menuOpen" aria-label="Open menu" aria-expanded="false" aria-controls="mnav">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mnav-bd" id="mnavBd" hidden>
+  <aside class="mnav" id="mnav" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="mnav-hd"><img src="/brand/logo.webp" alt="Anwar Optical"><button class="x-btn focus-ring" id="mnavClose" aria-label="Close menu">✕</button></div>
+    <nav class="mnav-links" aria-label="Mobile">
+      <span class="lbl">Shop</span>
+      <a href="/eyeglasses" class="focus-ring">Eyeglasses <span>→</span></a>
+      <a href="/sunglasses" class="focus-ring">Sunglasses <span>→</span></a>
+      <a href="/contact-lenses" class="focus-ring">Contact Lenses <span>→</span></a>
+      <a href="/offers" class="focus-ring">Offers <span>→</span></a>
+      <span class="lbl">More</span>
+      <a href="/tools" class="focus-ring">Tools <span>→</span></a>
+      <a href="/contact" class="focus-ring">Contact <span>→</span></a>
+      <a href="/cart" class="focus-ring">Cart <span>→</span></a>
+    </nav>
+    <div class="mnav-ft"><a href="https://wa.me/923327931623" class="btn btn-o focus-ring" style="width:100%" target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+  </aside>
+</div>
+
+<main>
+  <div class="wrap"><p class="crumb"><a href="/" class="focus-ring">Home</a> / <a href="/tools" class="focus-ring">Tools</a> / Will It Fit?</p></div>
+
+  <section style="padding-block:0 clamp(34px,4.6vw,58px)">
+    <div class="t-hero">
+      <div class="t-figure"><img src="/tools-media/w1200/workbench-tortoiseshell.webp" srcset="/tools-media/w640/workbench-tortoiseshell.webp 640w, /tools-media/w1200/workbench-tortoiseshell.webp 1200w" sizes="100vw" alt="Eyeglasses and a spare lens on a wooden workbench"></div>
+      <div class="wrap t-hero-in">
+        <span class="script">Anwar Optical Tools</span>
+        <h1>Will it fit?</h1>
+        <p>Compare a frame's listed size with your current glasses. This isn't a face scan or a fit guarantee — it's a simple size comparison to help you decide.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap" style="max-width:760px">
+      <div class="card-box">
+        <h2>1. Choose a frame</h2>
+        <div class="product-picker">
+          <select id="productSelect" class="focus-ring">
+            <option value="">Select a product…</option>
+          </select>
+        </div>
+        <div class="picked-product" id="pickedProduct" hidden>
+          <img id="pickedImg" src="" alt="">
+          <div><b id="pickedName"></b><span id="pickedKind"></span></div>
+        </div>
+      </div>
+
+      <div class="card-box">
+        <h2>2. Your current glasses</h2>
+        <p class="hint" style="margin-top:0;margin-bottom:14px">Look inside the temple arm of your current glasses — the three numbers printed there (e.g. 52 □ 18 — 140) are lens width, bridge width and temple length in millimetres.</p>
+        <div class="field-row">
+          <div class="field"><label for="curLens">Lens width (mm)</label><input type="number" id="curLens" min="1" max="90" inputmode="numeric"><p class="field-error">Enter a number between 1–90.</p></div>
+          <div class="field"><label for="curBridge">Bridge width (mm)</label><input type="number" id="curBridge" min="1" max="40" inputmode="numeric"><p class="field-error">Enter a number between 1–40.</p></div>
+          <div class="field"><label for="curTemple">Temple length (mm)</label><input type="number" id="curTemple" min="1" max="180" inputmode="numeric"><p class="field-error">Enter a number between 1–180.</p></div>
+        </div>
+        <div class="field" style="margin-top:8px">
+          <label for="curRef">Current frame name/reference (optional)</label>
+          <input type="text" id="curRef" maxlength="60" placeholder="e.g. your current frame's brand/model">
+        </div>
+        <button type="button" class="btn btn-o focus-ring" id="compareBtn" style="margin-top:14px">Compare</button>
+      </div>
+
+      <div class="card-box" id="resultBox" hidden>
+        <h2>Result</h2>
+        <div id="resultAvailable" hidden></div>
+        <div id="resultPartial" hidden></div>
+        <div id="resultNA" class="na-box" hidden>
+          <p>Measurements not available — this product's listing doesn't include structured lens/bridge/temple measurements yet, so we can't compare it precisely.</p>
+          <a id="naWa" href="#" target="_blank" rel="noopener" class="btn btn-line focus-ring" style="display:inline-flex">Ask on WhatsApp for exact sizing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="cart-bd" id="cartBd" hidden>
+  <aside class="cart-dr" role="dialog" aria-modal="true" aria-label="Your cart">
+    <div class="cart-hd"><h3 style="font-size:17px">Your cart</h3><button class="x-btn focus-ring" id="cartClose" aria-label="Close cart">✕</button></div>
+    <div class="cart-items" id="cartItems"><p class="cart-empty">Your cart is empty.</p></div>
+    <div class="cart-ft">
+      <div class="cart-sub"><span>Subtotal</span><b id="cartSub">₨ 0</b></div>
+      <a href="/order" class="btn btn-o focus-ring">Proceed to order</a>
+      <a href="/cart" class="btn btn-line focus-ring">View cart</a>
+      <p class="cart-note">Orders are confirmed with us on WhatsApp — nothing is charged here.</p>
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <img src="/brand/logo.webp" alt="Anwar Optical">
+        <p>Prescription eyewear, sunglasses and contact lenses from a Karachi optical counter, serving customers since 1968.</p>
+        <div class="foot-social"><a href="https://www.tiktok.com/@anwar.optical" class="focus-ring" target="_blank" rel="noopener" aria-label="Anwar Optical on TikTok"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 1 1 .77-5.06V9.68a5.66 5.66 0 0 0-.77-.05A5.67 5.67 0 1 0 15.54 15.3V8.9a7.35 7.35 0 0 0 4.3 1.38V7.2a4.29 4.29 0 0 1-3.24-1.38Z"/></svg></a></div>
+      </div>
+      <div><h3>Shop</h3><ul>
+        <li><a href="/eyeglasses" class="focus-ring">Eyeglasses</a></li>
+        <li><a href="/sunglasses" class="focus-ring">Sunglasses</a></li>
+        <li><a href="/contact-lenses" class="focus-ring">Contact Lenses</a></li>
+        <li><a href="/offers" class="focus-ring">Offers</a></li>
+      </ul></div>
+      <div><h3>Tools</h3><ul>
+        <li><a href="/frame-finder" class="focus-ring">Frame Face Match</a></li>
+        <li><a href="/will-it-fit" class="focus-ring">Will It Fit?</a></li>
+        <li><a href="/prescription-decoder" class="focus-ring">Prescription Decoder</a></li>
+        <li><a href="/measure-pd" class="focus-ring">Measure Your PD</a></li>
+        <li><a href="/which-lens" class="focus-ring">Which Lens Do I Need?</a></li>
+        <li><a href="/lens-comparison" class="focus-ring">Lens Comparison</a></li>
+        <li><a href="/uv-protection-guide" class="focus-ring">UV Protection Guide</a></li>
+        <li><a href="/lens-reminder" class="focus-ring">Lens Reminder</a></li>
+      </ul></div>
+      <div><h3>Help</h3><ul>
+        <li><a href="https://wa.me/923327931623" class="focus-ring" target="_blank" rel="noopener">WhatsApp us</a></li>
+        <li><a href="/contact" class="focus-ring">Contact</a></li>
+        <li><a href="/certifications" class="focus-ring">Certifications</a></li>
+        <li><a href="/privacy" class="focus-ring">Privacy</a></li>
+      </ul></div>
+      <div><h3>Get in touch</h3><ul class="foot-contact">
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg><a href="tel:+923327931623">+92 332 7931623</a></li>
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg><a href="mailto:Info@AnwarOptical.com">Info@AnwarOptical.com</a></li>
+        <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span>Shop No 5, Hanfia Masjid,<br>Shah Faisal Colony No 1, Karachi</span></li>
+      </ul></div>
+    </div>
+    <div class="foot-base"><span>© 2026 Anwar Optical. All rights reserved.</span><span>Ordering via WhatsApp</span></div>
+  </div>
+</footer>
+
+<script src="/products.js"></script>
+<script>
+(function(){
+  'use strict';
+  function esc(s){ var d=document.createElement('div'); d.textContent=s==null?'':String(s); return d.innerHTML; }
+  var PRODUCTS = window.PRODUCTS || [];
+  var WA_NUMBER = '923327931623';
+
+  /* ══ Shared V2 chrome ══ */
+  var mOpen=document.getElementById('menuOpen'), mBd=document.getElementById('mnavBd'), mClose=document.getElementById('mnavClose');
+  function makeTrap(container){ return function(e){ if(e.key!=='Tab') return; var f=[].slice.call(container.querySelectorAll('a[href],button:not([disabled]),input,select,textarea,[tabindex]:not([tabindex="-1"])')).filter(function(el){ return el.offsetParent!==null; }); if(!f.length) return; var first=f[0], last=f[f.length-1]; if(e.shiftKey && document.activeElement===first){ e.preventDefault(); last.focus(); } else if(!e.shiftKey && document.activeElement===last){ e.preventDefault(); first.focus(); } }; }
+  var mnavLastFocus=null; var mnavTrap=makeTrap(mBd);
+  function openM(){ mnavLastFocus=document.activeElement; mBd.hidden=false; requestAnimationFrame(function(){ mBd.classList.add('is-open'); mClose.focus(); }); mOpen.setAttribute('aria-expanded','true'); document.body.style.overflow='hidden'; document.addEventListener('keydown', mnavTrap); }
+  function closeM(){ mBd.classList.remove('is-open'); mOpen.setAttribute('aria-expanded','false'); document.body.style.overflow=''; setTimeout(function(){ mBd.hidden=true; },320); document.removeEventListener('keydown', mnavTrap); if(mnavLastFocus) mnavLastFocus.focus(); }
+  mOpen.addEventListener('click', openM); mClose.addEventListener('click', closeM);
+  mBd.addEventListener('click', function(e){ if(e.target===mBd) closeM(); });
+  mBd.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', closeM); });
+
+  var KEY='anwarOptical.cart.v1';
+  function load(){ try{ var r=localStorage.getItem(KEY); if(!r) return []; var p=JSON.parse(r); return Array.isArray(p)?p.filter(function(i){return i&&typeof i==='object';}):[]; }catch(e){ return []; } }
+  function save(){ try{ localStorage.setItem(KEY, JSON.stringify(cart)); }catch(e){} }
+  var cart = load();
+  var countEl=document.getElementById('cartCount'), itemsEl=document.getElementById('cartItems'), subEl=document.getElementById('cartSub'), bd=document.getElementById('cartBd');
+  function render(){
+    var q=cart.reduce(function(n,i){ return n+(i.qty||0); },0);
+    countEl.textContent=q; countEl.hidden = q===0;
+    if(!cart.length){ itemsEl.innerHTML='<p class="cart-empty">Your cart is empty.</p>'; subEl.textContent='₨ 0'; return; }
+    var sub=0;
+    itemsEl.innerHTML = cart.map(function(it,i){
+      sub += (it.priceValue||0)*it.qty;
+      var line = it.priceValue ? '₨ '+(it.priceValue*it.qty).toLocaleString() : esc(it.priceLabel||'Ask for price');
+      return '<div class="ci" data-i="'+i+'"><img src="'+esc(it.image)+'" alt="">'
+        + '<div class="ci-b"><p class="ci-n">'+esc(it.name)+'</p><p class="ci-m">'+esc(it.kind)+'</p>'
+        + '<div class="ci-r"><div class="ci-q"><button type="button" data-a="dec" aria-label="Decrease quantity">−</button><span>'+it.qty+'</span><button type="button" data-a="inc" aria-label="Increase quantity">+</button></div>'
+        + '<span class="ci-p">'+line+'</span></div></div>'
+        + '<button type="button" class="ci-x" data-a="rm" aria-label="Remove item">✕</button></div>';
+    }).join('');
+    subEl.textContent = '₨ '+sub.toLocaleString();
+  }
+  itemsEl.addEventListener('click', function(e){
+    var b=e.target.closest('[data-a]'); if(!b) return;
+    var i=parseInt(b.closest('.ci').dataset.i,10);
+    if(b.dataset.a==='inc') cart[i].qty++;
+    else if(b.dataset.a==='dec') cart[i].qty=Math.max(1,cart[i].qty-1);
+    else cart.splice(i,1);
+    save(); render();
+  });
+  var cartLastFocus=null; var cartTrap=makeTrap(bd);
+  function openCart(){ cartLastFocus=document.activeElement; bd.hidden=false; requestAnimationFrame(function(){ bd.classList.add('is-open'); document.getElementById('cartClose').focus(); }); document.body.style.overflow='hidden'; document.addEventListener('keydown', cartTrap); }
+  function closeCart(){ bd.classList.remove('is-open'); document.body.style.overflow=''; setTimeout(function(){ bd.hidden=true; },320); document.removeEventListener('keydown', cartTrap); if(cartLastFocus) cartLastFocus.focus(); }
+  document.getElementById('cartOpen').addEventListener('click', openCart);
+  document.getElementById('cartClose').addEventListener('click', closeCart);
+  bd.addEventListener('click', function(e){ if(e.target===bd) closeCart(); });
+  render();
+
+  var input=document.getElementById('hsInput'), panel=document.getElementById('hsPanel');
+  if(input && panel){
+    var SHORTCUTS=[
+      { name:'Eyeglasses', kind:'Category', href:'/eyeglasses' },
+      { name:'Sunglasses', kind:'Category', href:'/sunglasses' },
+      { name:'Contact Lenses', kind:'Category', href:'/contact-lenses' },
+      { name:'Offers', kind:'Category', href:'/offers' },
+      { name:'Frame Face Match', kind:'Tool', href:'/frame-finder' },
+      { name:'Which Lens Do I Need', kind:'Tool', href:'/which-lens' },
+      { name:'Measure Your PD', kind:'Tool', href:'/measure-pd' },
+      { name:'Prescription Decoder', kind:'Tool', href:'/prescription-decoder' },
+      { name:'Lens Comparison', kind:'Tool', href:'/lens-comparison' },
+      { name:'UV Protection Guide', kind:'Tool', href:'/uv-protection-guide' },
+      { name:'Lens Reminder', kind:'Tool', href:'/lens-reminder' }
+    ];
+    var idx = PRODUCTS.map(function(p){ return { name:p.name, kind:p.kind, image:p.image, href:'/product/'+p.slug, price: p.price?'₨ '+p.price.toLocaleString():'Ask for price' }; });
+    var matches=[], hl=-1, t=null;
+    function draw(){
+      if(!matches.length){ panel.innerHTML='<p class="hs-empty">Nothing found for "'+esc(input.value.trim())+'".</p>'; return; }
+      panel.innerHTML = matches.map(function(m,i){
+        var thumb = m.image ? '<img src="'+esc(m.image)+'" alt="">' : '';
+        return '<button type="button" class="hs-res'+(i===hl?' is-hl':'')+'" data-i="'+i+'">'+thumb+'<span><span class="hs-name">'+esc(m.name)+'</span><span class="hs-meta">'+esc(m.kind)+(m.price?' · '+esc(m.price):'')+'</span></span></button>';
+      }).join('');
+    }
+    function openS(){ panel.hidden=false; } function closeS(){ panel.hidden=true; hl=-1; }
+    function goTo(m){ if(m && m.href) location.href=m.href; }
+    input.addEventListener('input', function(){
+      clearTimeout(t);
+      t=setTimeout(function(){
+        var q=input.value.trim().toLowerCase();
+        if(!q){ matches=[]; closeS(); return; }
+        matches = idx.concat(SHORTCUTS).filter(function(m){ return (m.name+' '+m.kind).toLowerCase().indexOf(q)!==-1; }).slice(0,8);
+        hl=-1; draw(); openS();
+      },160);
+    });
+    panel.addEventListener('click', function(e){ var b=e.target.closest('.hs-res'); if(b) goTo(matches[parseInt(b.dataset.i,10)]); });
+    document.addEventListener('click', function(e){ if(!panel.hidden && !panel.contains(e.target) && e.target!==input) closeS(); });
+  }
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape'){ if(!mBd.hidden) closeM(); if(!bd.hidden) closeCart(); } });
+
+  /* ══ Will It Fit logic — preserved verbatim from the pre-V2 version ══ */
+  function parseMeasurements(sizeText){
+    if(!sizeText) return null;
+    var m = sizeText.match(/(\d{2})\s*[□□]\s*(\d{2})\s*[—\-–]\s*(\d{3})/);
+    if(!m) return null;
+    return { lens: parseInt(m[1],10), bridge: parseInt(m[2],10), temple: parseInt(m[3],10) };
+  }
+  /* Partial data — a lone real lens-width number from the catalogue, never invented (see product.html) */
+  function lensWidthOnly(p){
+    return (p.attributes && p.attributes.size && p.attributes.size[0] && /^\d+$/.test(p.attributes.size[0]))
+      ? parseInt(p.attributes.size[0],10) : null;
+  }
+
+  var selectEl = document.getElementById('productSelect');
+  PRODUCTS.forEach(function(p){
+    var opt = document.createElement('option');
+    opt.value = p.slug; opt.textContent = p.name + ' — ' + p.kind;
+    selectEl.appendChild(opt);
+  });
+
+  var params = new URLSearchParams(location.search);
+  var preselect = params.get('product');
+  if(preselect && window.getProductBySlug(preselect)) selectEl.value = preselect;
+
+  function showPicked(){
+    var p = window.getProductBySlug(selectEl.value);
+    var pickedEl = document.getElementById('pickedProduct');
+    if(!p){ pickedEl.hidden = true; return; }
+    pickedEl.hidden = false;
+    document.getElementById('pickedImg').src = p.image;
+    document.getElementById('pickedImg').alt = p.name;
+    document.getElementById('pickedName').textContent = p.name;
+    var lw = lensWidthOnly(p);
+    document.getElementById('pickedKind').textContent = p.kind + (p.sizeText ? ' · ' + p.sizeText : (lw ? ' · Lens width ' + lw + 'mm listed' : ''));
+  }
+  selectEl.addEventListener('change', showPicked);
+  if(selectEl.value) showPicked();
+
+  function validateInputs(){
+    var ok = true;
+    var fields = [
+      { id:'curLens', min:1, max:90 },
+      { id:'curBridge', min:1, max:40 },
+      { id:'curTemple', min:1, max:180 }
+    ];
+    fields.forEach(function(f){
+      var el = document.getElementById(f.id);
+      var v = el.value.trim();
+      var n = parseFloat(v);
+      var pass = v !== '' && !isNaN(n) && n >= f.min && n <= f.max;
+      el.closest('.field').classList.toggle('has-error', !pass);
+      if(!pass) ok = false;
+    });
+    return ok;
+  }
+
+  document.getElementById('compareBtn').addEventListener('click', function(){
+    var p = window.getProductBySlug(selectEl.value);
+    if(!p){ selectEl.focus(); return; }
+    if(!validateInputs()) return;
+
+    var cur = {
+      lens: parseFloat(document.getElementById('curLens').value),
+      bridge: parseFloat(document.getElementById('curBridge').value),
+      temple: parseFloat(document.getElementById('curTemple').value)
+    };
+    var target = parseMeasurements(p.sizeText);
+    var partialLens = target ? null : lensWidthOnly(p);
+
+    var resultBox = document.getElementById('resultBox');
+    resultBox.hidden = false;
+    var availEl = document.getElementById('resultAvailable');
+    var partialEl = document.getElementById('resultPartial');
+    var naEl = document.getElementById('resultNA');
+
+    if(!target && !partialLens){
+      availEl.hidden = true; partialEl.hidden = true;
+      naEl.hidden = false;
+      document.getElementById('naWa').href = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(
+        'Hi Anwar Optical, I want to check if ' + p.name + ' will fit me. My current glasses measure ' + cur.lens + '/' + cur.bridge + '/' + cur.temple + ' mm (lens/bridge/temple).'
+      );
+    } else if(!target && partialLens){
+      availEl.hidden = true; naEl.hidden = true;
+      partialEl.hidden = false;
+      var diffLensOnly = partialLens - cur.lens;
+      var lensWa = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(
+        'Hi Anwar Optical, could you share the bridge and temple measurements for ' + p.name + '? I have the lens width (' + partialLens + 'mm) but not the rest.'
+      );
+      partialEl.innerHTML = '<table class="compare-table"><thead><tr><th></th><th>Lens</th></tr></thead><tbody>'
+        + '<tr><td>Your current glasses</td><td>' + cur.lens + ' mm</td></tr>'
+        + '<tr><td>' + esc(p.name) + '</td><td>' + partialLens + ' mm</td></tr>'
+        + '<tr><td>Difference</td><td>' + (diffLensOnly > 0 ? '+' : '') + diffLensOnly + ' mm</td></tr>'
+        + '</tbody></table><p class="diff-note">Only lens width is listed for this frame — bridge and temple aren\'t, so this isn\'t a full comparison.</p>'
+        + '<p class="hint" style="margin-top:10px"><a class="btn btn-line focus-ring" href="' + lensWa + '" target="_blank" rel="noopener" style="display:inline-flex">Ask Anwar Optical for the rest →</a></p>';
+    } else {
+      naEl.hidden = true; partialEl.hidden = true;
+      availEl.hidden = false;
+      var diffLens = target.lens - cur.lens;
+      var diffBridge = target.bridge - cur.bridge;
+      var diffTemple = target.temple - cur.temple;
+      var maxDiff = Math.max(Math.abs(diffLens), Math.abs(diffBridge), Math.abs(diffTemple));
+      var overall = maxDiff <= 2 ? 'Very similar overall dimensions.' : (maxDiff <= 4 ? 'This frame is slightly different in size.' : 'This frame has a noticeably different size — worth trying before you commit.');
+      function fmtDiff(d){ return (d > 0 ? '+' : '') + d; }
+      availEl.innerHTML = '<table class="compare-table"><thead><tr><th></th><th>Lens</th><th>Bridge</th><th>Temple</th></tr></thead><tbody>'
+        + '<tr><td>Your current glasses</td><td>' + cur.lens + '</td><td>' + cur.bridge + '</td><td>' + cur.temple + '</td></tr>'
+        + '<tr><td>' + esc(p.name) + '</td><td>' + target.lens + '</td><td>' + target.bridge + '</td><td>' + target.temple + '</td></tr>'
+        + '<tr><td>Difference</td><td>' + fmtDiff(diffLens) + ' mm</td><td>' + fmtDiff(diffBridge) + ' mm</td><td>' + fmtDiff(diffTemple) + ' mm</td></tr>'
+        + '</tbody></table><p class="diff-note">' + overall + '</p>';
+    }
+    resultBox.scrollIntoView({ behavior:'smooth', block:'start' });
+  });
+})();
+</script>
+</body>
+</html>
