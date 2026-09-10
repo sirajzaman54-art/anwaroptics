@@ -6,6 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tools | Anwar Optical</title>
 <meta name="description" content="Eight free guided tools from Anwar Optical, grouped by what you're trying to figure out: your frames, your prescription, your lenses, and eye or lens care.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Anwar Optical">
+<meta property="og:title" content="Tools | Anwar Optical">
+<meta property="og:description" content="Eight free guided tools from Anwar Optical, grouped by what you're trying to figure out: your frames, your prescription, your lenses, and eye or lens care.">
+<meta property="og:url" content="https://anwar-optical.vercel.app/tools">
+<meta property="og:image" content="https://anwar-optical.vercel.app/tools-media/w1200/frame-face-match-hero.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="800">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tools | Anwar Optical">
+<meta name="twitter:description" content="Eight free guided tools from Anwar Optical, grouped by what you're trying to figure out: your frames, your prescription, your lenses, and eye or lens care.">
+<meta name="twitter:image" content="https://anwar-optical.vercel.app/tools-media/w1200/frame-face-match-hero.webp">
 <link rel="canonical" href="https://anwar-optical.vercel.app/tools">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -442,7 +454,7 @@ a.stool{display:flex;align-items:flex-start;gap:16px;padding:clamp(18px,2.2vw,24
     itemsEl.innerHTML = cart.map(function(it,i){
       sub += (it.priceValue||0)*it.qty;
       var line = it.priceValue ? '₨ '+(it.priceValue*it.qty).toLocaleString() : esc(it.priceLabel||'Ask for price');
-      return '<div class="ci" data-i="'+i+'"><img src="'+esc(it.image)+'" alt="">'
+      return '<div class="ci" data-i="'+i+'"><img src="'+esc(it.image)+'" alt="'+esc(it.name)+'">'
         + '<div class="ci-b"><p class="ci-n">'+esc(it.name)+'</p><p class="ci-m">'+esc(it.kind)+'</p>'
         + '<div class="ci-r"><div class="ci-q"><button type="button" data-a="dec" aria-label="Decrease quantity">−</button><span>'+it.qty+'</span><button type="button" data-a="inc" aria-label="Increase quantity">+</button></div>'
         + '<span class="ci-p">'+line+'</span></div></div>'
@@ -487,7 +499,7 @@ a.stool{display:flex;align-items:flex-start;gap:16px;padding:clamp(18px,2.2vw,24
     function draw(){
       if(!matches.length){ panel.innerHTML='<p class="hs-empty">Nothing found for "'+esc(input.value.trim())+'".</p>'; return; }
       panel.innerHTML = matches.map(function(m,i){
-        var thumb = m.image ? '<img src="'+esc(m.image)+'" alt="">' : '';
+        var thumb = m.image ? '<img src="'+esc(m.image)+'" alt="'+esc(m.name)+'">' : '';
         return '<button type="button" class="hs-res'+(i===hl?' is-hl':'')+'" data-i="'+i+'">'+thumb+'<span><span class="hs-name">'+esc(m.name)+'</span><span class="hs-meta">'+esc(m.kind)+(m.price?' · '+esc(m.price):'')+'</span></span></button>';
       }).join('');
     }

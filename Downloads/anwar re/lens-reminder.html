@@ -6,6 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lens Reminder | Anwar Optical</title>
 <meta name="description" content="A personal contact lens replacement dashboard — calculate your schedule and save it to your calendar.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Anwar Optical">
+<meta property="og:title" content="Lens Reminder | Anwar Optical">
+<meta property="og:description" content="A personal contact lens replacement dashboard — calculate your schedule and save it to your calendar.">
+<meta property="og:url" content="https://anwar-optical.vercel.app/lens-reminder">
+<meta property="og:image" content="https://anwar-optical.vercel.app/hero/hero-eyeglasses.webp">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="854">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lens Reminder | Anwar Optical">
+<meta name="twitter:description" content="A personal contact lens replacement dashboard — calculate your schedule and save it to your calendar.">
+<meta name="twitter:image" content="https://anwar-optical.vercel.app/hero/hero-eyeglasses.webp">
 <link rel="canonical" href="https://anwar-optical.vercel.app/lens-reminder">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -452,7 +464,7 @@ footer ul a{font-size:13px}
     itemsEl.innerHTML = cart.map(function(it,i){
       sub += (it.priceValue||0)*it.qty;
       var line = it.priceValue ? '₨ '+(it.priceValue*it.qty).toLocaleString() : esc(it.priceLabel||'Ask for price');
-      return '<div class="ci" data-i="'+i+'"><img src="'+esc(it.image)+'" alt="">'
+      return '<div class="ci" data-i="'+i+'"><img src="'+esc(it.image)+'" alt="'+esc(it.name)+'">'
         + '<div class="ci-b"><p class="ci-n">'+esc(it.name)+'</p><p class="ci-m">'+esc(it.kind)+'</p>'
         + '<div class="ci-r"><div class="ci-q"><button type="button" data-a="dec" aria-label="Decrease quantity">−</button><span>'+it.qty+'</span><button type="button" data-a="inc" aria-label="Increase quantity">+</button></div>'
         + '<span class="ci-p">'+line+'</span></div></div>'
@@ -496,7 +508,7 @@ footer ul a{font-size:13px}
     function draw(){
       if(!matches.length){ panel.innerHTML='<p class="hs-empty">Nothing found for "'+esc(input.value.trim())+'".</p>'; return; }
       panel.innerHTML = matches.map(function(m,i){
-        var thumb = m.image ? '<img src="'+esc(m.image)+'" alt="">' : '';
+        var thumb = m.image ? '<img src="'+esc(m.image)+'" alt="'+esc(m.name)+'">' : '';
         return '<button type="button" class="hs-res'+(i===hl?' is-hl':'')+'" data-i="'+i+'">'+thumb+'<span><span class="hs-name">'+esc(m.name)+'</span><span class="hs-meta">'+esc(m.kind)+(m.price?' · '+esc(m.price):'')+'</span></span></button>';
       }).join('');
     }

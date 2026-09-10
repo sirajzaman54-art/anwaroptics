@@ -824,7 +824,7 @@ footer ul a{font-size:13px}
     itemsEl.innerHTML = cart.map(function(it,i){
       sub += (it.priceValue||0)*it.qty;
       var line = it.priceValue ? '₨ '+(it.priceValue*it.qty).toLocaleString() : esc(it.priceLabel||'Ask for price');
-      return '<div class="ci" data-i="'+i+'"><img src="'+esc(it.image)+'" alt="">'
+      return '<div class="ci" data-i="'+i+'"><img src="'+esc(it.image)+'" alt="'+esc(it.name)+'">'
         + '<div class="ci-b"><p class="ci-n">'+esc(it.name)+'</p><p class="ci-m">'+esc(it.kind)+(it.prescription?' · '+esc(it.prescription):'')+'</p>'
         + '<div class="ci-r"><div class="ci-q"><button type="button" data-a="dec" aria-label="Decrease quantity">−</button><span>'+it.qty+'</span><button type="button" data-a="inc" aria-label="Increase quantity">+</button></div>'
         + '<span class="ci-p">'+line+'</span></div></div>'
@@ -870,7 +870,7 @@ footer ul a{font-size:13px}
     function draw(){
       if(!matches.length){ panel.innerHTML='<p class="hs-empty">Nothing found for "'+esc(input.value.trim())+'".</p>'; return; }
       panel.innerHTML = matches.map(function(m,i){
-        var thumb = m.image ? '<img src="'+esc(m.image)+'" alt="">' : '<span class="hs-ico">→</span>';
+        var thumb = m.image ? '<img src="'+esc(m.image)+'" alt="'+esc(m.name)+'">' : '<span class="hs-ico">→</span>';
         var meta = esc(m.kind) + (m.price ? ' · '+esc(m.price) : '');
         return '<button type="button" class="hs-res'+(i===hl?' is-hl':'')+'" data-i="'+i+'">'+thumb+'<span><span class="hs-name">'+esc(m.name)+'</span><span class="hs-meta">'+meta+'</span></span></button>';
       }).join('');
@@ -992,7 +992,7 @@ footer ul a{font-size:13px}
   }
   if(images.length > 1){
     document.getElementById('pdpThumbs').innerHTML = images.map(function(im,i){
-      return '<button type="button" class="pdp-thumb'+(i===0?' is-on':'')+'" data-i="'+i+'" aria-label="Image '+(i+1)+'"><img src="'+esc(im.thumb||im.src)+'" alt=""></button>';
+      return '<button type="button" class="pdp-thumb'+(i===0?' is-on':'')+'" data-i="'+i+'" aria-label="Image '+(i+1)+'"><img src="'+esc(im.thumb||im.src)+'" alt="'+esc(product.name)+' thumbnail '+(i+1)+'"></button>';
     }).join('');
     document.querySelectorAll('.pdp-thumb').forEach(function(t){ t.addEventListener('click', function(){ setMain(parseInt(t.dataset.i,10)); }); });
     document.getElementById('pdpPrev').hidden = false;
@@ -1005,7 +1005,7 @@ footer ul a{font-size:13px}
     var zoomBtn = document.getElementById('pdpZoomBtn');
     zoomBtn.hidden = false;
     var lb = document.getElementById('pdpLb'), lbImg = document.getElementById('pdpLbImg');
-    function openLb(){ lbImg.src = images[curIdx].src; lb.hidden=false; requestAnimationFrame(function(){ lb.classList.add('is-open'); }); }
+    function openLb(){ lbImg.src = images[curIdx].src; lbImg.alt = product.name; lb.hidden=false; requestAnimationFrame(function(){ lb.classList.add('is-open'); }); }
     function closeLb(){ lb.classList.remove('is-open'); setTimeout(function(){ lb.hidden=true; },220); }
     zoomBtn.addEventListener('click', openLb);
     document.getElementById('pdpLbClose').addEventListener('click', closeLb);

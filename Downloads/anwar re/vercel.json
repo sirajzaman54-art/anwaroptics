@@ -3,6 +3,7 @@
     { "source": "/lens-tint-preview", "destination": "/tools", "permanent": true }
   ],
   "rewrites": [
+    { "source": "/", "destination": "/anwar-optical-v2.html" },
     { "source": "/product/:slug", "destination": "/product.html" },
     { "source": "/eyeglasses", "destination": "/catalogue.html" },
     { "source": "/eyeglasses/men", "destination": "/catalogue.html" },
