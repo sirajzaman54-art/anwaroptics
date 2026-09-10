@@ -8,6 +8,10 @@
   ],
   "rewrites": [
     {
+      "source": "/",
+      "destination": "/anwar-optical-v2.html"
+    },
+    {
       "source": "/product/:slug",
       "destination": "/product.html"
     },
@@ -58,6 +62,10 @@
     {
       "source": "/contact",
       "destination": "/contact.html"
+    },
+    {
+      "source": "/certifications",
+      "destination": "/certifications.html"
     },
     {
       "source": "/tools",

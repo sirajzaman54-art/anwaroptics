@@ -4,7 +4,7 @@
 <script>document.documentElement.classList.add('js')</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="pdpTitle">Product | Anwar Optical</title>
+<title id="pdpTitle">Eyewear & Contact Lenses | Anwar Optical</title>
 <meta name="description" id="pdpDescription" content="Prescription eyewear, sunglasses and contact lenses from Anwar Optical, Karachi, since 1968.">
 <link rel="canonical" id="pdpCanonical" href="https://anwar-optical.vercel.app/">
 <meta property="og:type" content="product">
@@ -13,6 +13,36 @@
 <meta property="og:description" id="ogDescription" content="Prescription eyewear, sunglasses and contact lenses from Anwar Optical, Karachi, since 1968.">
 <meta property="og:image" id="ogImage" content="">
 <meta property="og:url" id="ogUrl" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" id="twTitle" content="Anwar Optical">
+<meta name="twitter:description" id="twDescription" content="Prescription eyewear, sunglasses and contact lenses from Anwar Optical, Karachi, since 1968.">
+<meta name="twitter:image" id="twImage" content="https://anwar-optical.vercel.app/hero/hero-eyeglasses.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Optician",
+  "@id": "https://anwar-optical.vercel.app/#business",
+  "name": "Anwar Optical",
+  "url": "https://anwar-optical.vercel.app/",
+  "image": "https://anwar-optical.vercel.app/hero/hero-eyeglasses.webp",
+  "logo": "https://anwar-optical.vercel.app/brand/logo.webp",
+  "telephone": "+923327931623",
+  "email": "Info@AnwarOptical.com",
+  "foundingDate": "1968",
+  "priceRange": "$$",
+  "currenciesAccepted": "PKR",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Shop No 5, Hanfia Masjid, Shah Faisal Colony No 1",
+    "addressLocality": "Karachi",
+    "addressRegion": "Sindh",
+    "postalCode": "75230",
+    "addressCountry": "PK"
+  },
+  "areaServed": { "@type": "City", "name": "Karachi" },
+  "sameAs": ["https://www.tiktok.com/@anwar.optical"]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
@@ -503,8 +533,8 @@ footer ul a{font-size:13px}
           <button class="pdp-nav-btn prev focus-ring" id="pdpPrev" aria-label="Previous image" hidden><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
           <button class="pdp-nav-btn next focus-ring" id="pdpNext" aria-label="Next image" hidden><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
           <span class="pdp-count" id="pdpCount" hidden></span>
-          <img id="pdpImgA" alt="" class="is-on">
-          <img id="pdpImgB" alt="">
+          <img id="pdpImgA" alt="Product photo" class="is-on">
+          <img id="pdpImgB" alt="Product photo">
         </div>
       </div>
 
@@ -560,7 +590,7 @@ footer ul a{font-size:13px}
   <!-- ══ Frame Focus editorial (eyeglasses + sunglasses) ══ -->
   <section id="ffocusSection" hidden class="ffocus">
     <div class="wrap ffocus-in">
-      <div class="ffocus-media"><img id="ffocusImg" alt=""></div>
+      <div class="ffocus-media"><img id="ffocusImg" alt="Frame detail"></div>
       <div>
         <span class="kick kick-l">Frame focus</span>
         <h2>Designed for everyday wear.</h2>
@@ -646,7 +676,7 @@ footer ul a{font-size:13px}
   <!-- ══ Contact lens: shade focus (contact-lens only) ══ -->
   <section id="clShadeSection" hidden>
     <div class="wrap cl-shade">
-      <div class="cl-shade-media"><img id="clShadeImg" alt=""></div>
+      <div class="cl-shade-media"><img id="clShadeImg" alt="Lens shade preview"></div>
       <div>
         <span class="kick">Shade focus</span>
         <h2 id="clShadeName"></h2>
@@ -730,7 +760,7 @@ footer ul a{font-size:13px}
   </div>
 </div>
 
-<div class="pdp-lb" id="pdpLb" hidden><button class="pdp-lb-close focus-ring" id="pdpLbClose" aria-label="Close">✕</button><img id="pdpLbImg" alt=""></div>
+<div class="pdp-lb" id="pdpLb" hidden><button class="pdp-lb-close focus-ring" id="pdpLbClose" aria-label="Close">✕</button><img id="pdpLbImg" alt="Product photo, enlarged"></div>
 
 <div class="cart-bd" id="cartBd" hidden>
   <aside class="cart-dr" role="dialog" aria-modal="true" aria-label="Your cart">
@@ -943,7 +973,13 @@ footer ul a{font-size:13px}
   document.getElementById('ogTitle').setAttribute('content', product.name + ' | Anwar Optical');
   document.getElementById('ogDescription').setAttribute('content', descText);
   document.getElementById('ogUrl').setAttribute('content', canonicalUrl);
-  if(product.image) document.getElementById('ogImage').setAttribute('content', 'https://anwar-optical.vercel.app' + product.image);
+  document.getElementById('twTitle').setAttribute('content', product.name + ' | Anwar Optical');
+  document.getElementById('twDescription').setAttribute('content', descText);
+  if(product.image){
+    var imgAbs = 'https://anwar-optical.vercel.app' + product.image;
+    document.getElementById('ogImage').setAttribute('content', imgAbs);
+    document.getElementById('twImage').setAttribute('content', imgAbs);
+  }
 
   /* Breadcrumb + BreadcrumbList JSON-LD */
   document.getElementById('pdpCrumbName').textContent = product.name;
