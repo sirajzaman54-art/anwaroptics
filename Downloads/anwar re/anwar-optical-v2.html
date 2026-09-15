@@ -47,7 +47,7 @@
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Caveat:wght@500;600;700&family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ══════════════════════════════════════════════════════════
    TOKENS
@@ -117,13 +117,13 @@ header{position:sticky;top:0;z-index:70;background:rgba(255,255,255,.94);backdro
 nav.primary{display:flex;gap:2px;margin-right:auto}
 nav.primary>a{font-family:'Outfit',sans-serif;font-size:14.5px;font-weight:500;color:var(--text);padding:8px 13px;border-radius:7px;
   transition:color 180ms var(--ease),background 180ms var(--ease)}
-@media (hover:hover){nav.primary>a:hover{color:var(--o-600);background:var(--o-50)}}
+@media (hover:hover){nav.primary>a:hover{color:var(--o-700);background:var(--o-50)}}
 .nav-drop{position:relative;display:flex;align-items:center}
 .nav-drop-link{display:inline-flex;align-items:center;gap:4px;font-family:'Outfit',sans-serif;font-size:14.5px;font-weight:500;color:var(--text);padding:8px 13px;border-radius:7px;transition:color 180ms var(--ease),background 180ms var(--ease)}
 .nav-drop-link svg{color:var(--soft-2);transition:transform 180ms var(--ease),color 180ms var(--ease)}
-@media (hover:hover){.nav-drop-link:hover{color:var(--o-600);background:var(--o-50)}}
-.nav-drop:hover .nav-drop-link,.nav-drop:focus-within .nav-drop-link{color:var(--o-600);background:var(--o-50)}
-.nav-drop:hover .nav-drop-link svg,.nav-drop:focus-within .nav-drop-link svg{transform:rotate(180deg);color:var(--o-600)}
+@media (hover:hover){.nav-drop-link:hover{color:var(--o-700);background:var(--o-50)}}
+.nav-drop:hover .nav-drop-link,.nav-drop:focus-within .nav-drop-link{color:var(--o-700);background:var(--o-50)}
+.nav-drop:hover .nav-drop-link svg,.nav-drop:focus-within .nav-drop-link svg{transform:rotate(180deg);color:var(--o-700)}
 .nav-drop-menu{position:absolute;top:100%;left:0;margin-top:2px;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 16px 32px -14px rgba(20,33,43,.24);padding:6px;min-width:168px;opacity:0;visibility:hidden;transform:translateY(-4px);transition:opacity 160ms var(--ease),transform 160ms var(--ease),visibility 160ms;z-index:90}
 .nav-drop:hover .nav-drop-menu,.nav-drop:focus-within .nav-drop-menu{opacity:1;visibility:visible;transform:translateY(0)}
 .nav-drop-menu a{display:block;padding:9px 12px;border-radius:7px;font-family:'Outfit',sans-serif;font-size:14px;font-weight:500;color:var(--text)}
@@ -300,7 +300,7 @@ section{padding-block:clamp(34px,4.6vw,58px)}
 .pcard-media{position:relative;aspect-ratio:1/1;border-radius:var(--r-sm);overflow:hidden;background:var(--cream);margin-bottom:11px}
 .pcard-media img{width:100%;height:100%;object-fit:cover;transition:transform 600ms var(--ease)}
 @media (hover:hover){.pcard:hover .pcard-media img{transform:scale(1.05)}}
-.pflag{position:absolute;top:9px;left:9px;z-index:2;background:var(--sale);color:#fff;font-family:'Outfit',sans-serif;font-size:10.5px;
+.pflag{position:absolute;top:9px;left:9px;z-index:2;background:var(--sale);color:#fff;font-family:'Outfit',sans-serif;font-size:11px;
   font-weight:700;padding:4px 8px;border-radius:5px;letter-spacing:.02em}
 .pcard h3{font-size:14.5px;font-weight:600;margin-bottom:3px;letter-spacing:-.015em;line-height:1.25}
 .pcard h3 a{transition:color 180ms var(--ease)}
@@ -565,7 +565,7 @@ section{padding-block:clamp(34px,4.6vw,58px)}
 }
 
 /* ══ Orange CTA ══ */
-.cta-band{background:var(--o-500);color:#fff;position:relative;overflow:hidden;isolation:isolate}
+.cta-band{background:var(--o-700);color:#fff;position:relative;overflow:hidden;isolation:isolate}
 .cta-deco{position:absolute;z-index:0;opacity:.16;pointer-events:none;stroke:#fff;fill:none}
 .cta-deco.l{left:-30px;top:50%;transform:translateY(-50%)}
 .cta-deco.r{right:-10px;bottom:-14px}
@@ -694,7 +694,7 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
 @keyframes ovCompareCycle{0%,2%{opacity:0}6%,21%{opacity:1}25%,100%{opacity:0}}
 /* will-it-fit: measurement guide labels (no invented mm numbers) */
 .ov-fit-tag{position:absolute;background:rgba(13,23,32,.62);backdrop-filter:blur(6px);color:#fff;font-family:'Outfit',sans-serif;
-  font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:5px 10px;border-radius:6px;
+  font-size:11px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;padding:5px 10px;border-radius:6px;
   border:1px solid rgba(255,255,255,.22);opacity:0;transform:translateY(6px);transition:opacity 380ms var(--ease),transform 380ms var(--ease)}
 .ov-layer.is-on .ov-fit-tag{opacity:1;transform:none}
 .ov-fit-tag.lens{left:20%;top:38%}
@@ -741,31 +741,100 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
 @media (max-width:620px){.showcase-stage{aspect-ratio:4/3}.showcase-active{min-height:0}}
 
 /* ══ From the shop — social rail ══ */
-.social{background:var(--cream-2);border-block:1px solid var(--line)}
-.social-hd{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:clamp(16px,2vw,22px)}
-.social-hd h2{font-size:clamp(24px,2.9vw,34px);letter-spacing:-.028em;margin-bottom:5px}
-.social-hd p{font-size:14px;color:var(--soft)}
-.social-nav{display:none;gap:8px}
-@media (min-width:1001px){.social-nav{display:flex}}
-.s-arrow{width:40px;height:40px;border-radius:99px;border:1.5px solid var(--line);background:var(--paper);color:var(--text);
-  display:grid;place-items:center;cursor:pointer;transition:border-color 180ms var(--ease),background 180ms var(--ease),opacity 180ms var(--ease)}
-@media (hover:hover){.s-arrow:hover:not(:disabled){border-color:var(--ink);background:var(--ink);color:#fff}}
-.s-arrow:disabled{opacity:.34;cursor:default}
-.social-rail{display:flex;gap:clamp(10px,1.2vw,14px);overflow-x:auto;scroll-snap-type:x mandatory;
-  -webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
+/* ══ Social / TikTok — "Held up to the light" ══
+   Designed around what the clips actually show: frames turned in hand, lens
+   coatings flashing blue-violet against a white bench. Editorial type
+   (Instrument Serif + Sans), the glasses line-art from the orange CTA band,
+   and TikTok's own cyan/red glyph offset, which rhymes with those coating
+   flashes. Figures come from TIKTOK_STATS. */
+.social{background:var(--ink-2);color:#fff;position:relative;overflow:hidden;
+  padding-block:clamp(40px,5vw,72px)}
+.tt-specs{position:absolute;left:-70px;bottom:-34px;width:min(600px,80vw);height:auto;
+  fill:none;stroke:rgba(255,255,255,.055);stroke-width:1.4;pointer-events:none}
+.social .wrap{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);
+  gap:clamp(30px,5vw,76px);align-items:center}
+@media (max-width:1000px){.social .wrap{grid-template-columns:minmax(0,1fr)}}
+
+/* ── Intro column ──
+   Type system for this section: Instrument Serif (display, figures) paired
+   with Instrument Sans (labels, body) — a designed pair, so the feature reads
+   as one editorial spread against the TikTok frames beside it. */
+.tt-intro{max-width:480px;font-family:'Instrument Sans','Inter',system-ui,sans-serif}
+@media (max-width:1000px){.tt-intro{max-width:none}}
+.tt-handle{display:inline-flex;align-items:center;gap:12px;margin-bottom:clamp(12px,1.4vw,16px);min-height:44px;
+  font-family:inherit;font-size:14px;font-weight:600;letter-spacing:.005em;color:#fff;transition:opacity 180ms var(--ease)}
+.tt-handle .tt-on{font-weight:400;color:rgba(255,255,255,.52)}
+@media (hover:hover){.tt-handle:hover{opacity:.82}}
+.tt-glyph{display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:#000;color:#fff;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.12);flex-shrink:0}
+.tt-glyph svg{filter:drop-shadow(-1.3px -1.1px 0 #25F4EE) drop-shadow(1.3px 1.1px 0 #FE2C55)}
+
+.tt-intro h2{font-family:'Instrument Serif','Times New Roman',Georgia,serif;font-weight:400;
+  font-size:clamp(38px,4vw,54px);line-height:.95;letter-spacing:-.01em;color:#fff;margin-bottom:clamp(10px,1.2vw,14px)}
+.tt-intro h2 em{font-style:italic;color:var(--o-300)}
+.tt-intro > p{font-size:15px;line-height:1.56;color:rgba(255,255,255,.66);max-width:40ch;text-wrap:pretty}
+
+/* ── Figures: one oversized lead, the rest stacked number-over-label.
+   The lead is whichever real figure comes first (JS adds .is-lead). ── */
+.tt-stats{display:flex;flex-wrap:wrap;align-items:flex-start;column-gap:clamp(22px,2.8vw,36px);row-gap:14px;
+  margin-top:clamp(16px,2vw,22px);padding-top:clamp(14px,1.6vw,18px);border-top:1px solid rgba(255,255,255,.14)}
+.tt-stat{display:flex;flex-direction:column;gap:5px}
+.tt-stat b{font-family:'Instrument Serif','Times New Roman',Georgia,serif;font-weight:400;
+  font-size:clamp(26px,2.6vw,34px);line-height:.95;letter-spacing:.01em;color:#fff;font-variant-numeric:lining-nums tabular-nums}
+.tt-stat span{font-size:12px;font-weight:500;letter-spacing:.01em;color:rgba(255,255,255,.56)}
+.tt-stat.is-lead{flex-basis:100%;gap:7px;margin-bottom:4px}
+.tt-stat.is-lead b{font-size:clamp(56px,5.6vw,76px);line-height:.85;letter-spacing:-.005em}
+.tt-stat.is-lead span{font-family:'Instrument Serif','Times New Roman',Georgia,serif;font-style:italic;font-weight:400;
+  font-size:clamp(18px,1.8vw,22px);letter-spacing:0;color:rgba(255,255,255,.78)}
+
+.sf-note{display:block;margin-top:12px;font-size:12px;letter-spacing:.01em;color:rgba(255,255,255,.4)}
+.tt-follow{display:inline-flex;align-items:center;gap:9px;margin-top:clamp(16px,2vw,22px);min-height:44px;padding-top:6px;
+  font-family:inherit;font-size:15px;font-weight:600;letter-spacing:.005em;color:#fff;
+  background:linear-gradient(currentColor,currentColor) 0 calc(100% - 6px)/100% 1px no-repeat;
+  transition:color 200ms var(--ease)}
+.tt-follow .ar{transition:transform 240ms var(--ease)}
+@media (hover:hover){.tt-follow:hover{color:var(--o-300)}.tt-follow:hover .ar{transform:translate(3px,-3px)}}
+/* Note sits directly under the figures it qualifies, so the link comes after it */
+.sf-note + .tt-follow{margin-top:clamp(12px,1.5vw,16px)}
+
+/* ── Feed column: staggered, TikTok-grid-style frames ── */
+.tt-feed{min-width:0}
+.social-rail{display:flex;align-items:flex-start;gap:clamp(12px,1.4vw,18px);overflow-x:auto;scroll-snap-type:x mandatory;
+  -webkit-overflow-scrolling:touch;scrollbar-width:none;padding:6px 2px 10px}
 .social-rail::-webkit-scrollbar{display:none}
-.s-card{position:relative;flex:0 0 auto;width:calc((100% - 3*clamp(10px,1.2vw,14px))/4);scroll-snap-align:start;
-  border-radius:var(--r-sm);overflow:hidden;background:var(--ink);aspect-ratio:4/5;display:block;
-  transition:transform 300ms var(--ease)}
-@media (hover:hover){.s-card:hover{transform:translateY(-3px)}.s-card:hover img{transform:scale(1.03)}}
-.s-card img{width:100%;height:100%;object-fit:cover;transition:transform 600ms var(--ease)}
-.s-card::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,23,32,0) 55%,rgba(13,23,32,.5) 100%)}
-.s-play{position:absolute;left:11px;bottom:11px;z-index:2;width:30px;height:30px;border-radius:50%;
-  background:rgba(255,255,255,.92);color:var(--ink);display:grid;place-items:center}
-@media (max-width:1000px){.s-card{width:calc((100% - 2*12px)/2.6)}}
-@media (max-width:620px){.s-card{width:76%}}
-.social-foot{margin-top:14px;font-size:12.5px;color:var(--soft)}
+.s-card{position:relative;flex:0 0 auto;width:calc((100% - 2*clamp(12px,1.4vw,18px))/2.45);scroll-snap-align:start;
+  border-radius:16px;overflow:hidden;background:var(--ink-2);aspect-ratio:1/1;display:block;
+  box-shadow:0 22px 44px -22px rgba(0,0,0,.75);transition:transform 420ms var(--ease)}
+@media (hover:hover){.s-card:hover{transform:translateY(-6px)}.s-card:hover img{transform:scale(1.04)}}
+.s-card img{width:100%;height:100%;object-fit:cover;transition:transform 700ms var(--ease)}
+/* Muted autoplay loop sits over the still and fades in once it's actually playing,
+   so a failed/slow load degrades to the still with no black flash. */
+.s-card .s-loop{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  opacity:0;transition:opacity 420ms var(--ease);pointer-events:none}
+.s-card.has-loop .s-loop{opacity:1}
+@media (hover:hover){.s-card:hover .s-loop{transform:scale(1.04);transition:opacity 420ms var(--ease),transform 700ms var(--ease)}}
+.s-card::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 60%,rgba(0,0,0,.58) 100%)}
+/* Bottom-left overlay mirrors the TikTok profile grid ("▷ …" in the corner) —
+   shows the handle, never an invented per-video view count. */
+.s-meta{position:absolute;left:12px;right:12px;bottom:11px;z-index:2;display:flex;align-items:center;gap:6px;
+  font-family:'Outfit',sans-serif;font-size:12.5px;font-weight:600;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.s-meta svg{flex-shrink:0}
 .s-card{cursor:pointer;border:none;padding:0;font:inherit;color:inherit}
+@media (max-width:1000px){.s-card{width:calc((100% - 2*12px)/2.4)}}
+@media (max-width:620px){.s-card{width:64%}}
+@media (min-width:1001px){
+  .social-rail{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(12px,1.4vw,18px);overflow:visible}
+  .s-card{width:100%;aspect-ratio:5/4}
+}
+
+.tt-feed-foot{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:16px}
+.tt-hint{font-size:13px;color:rgba(255,255,255,.46)}
+.social-nav{display:flex;gap:8px}
+@media (min-width:1001px){.social-nav{display:none}}
+.s-arrow{width:42px;height:42px;border-radius:99px;border:1.5px solid rgba(255,255,255,.22);background:transparent;color:#fff;
+  display:grid;place-items:center;cursor:pointer;transition:border-color 180ms var(--ease),background 180ms var(--ease),opacity 180ms var(--ease)}
+@media (hover:hover){.s-arrow:hover:not(:disabled){border-color:#fff;background:#fff;color:var(--ink)}}
+.s-arrow:disabled{opacity:.28;cursor:default}
 
 /* ══ TikTok same-page viewer modal ══ */
 .tt-bd{position:fixed;inset:0;z-index:260;background:rgba(13,23,32,.86);opacity:0;transition:opacity 220ms var(--ease);
@@ -774,8 +843,12 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
 .tt-modal{position:relative;width:min(380px,100%);max-height:90vh;display:flex;flex-direction:column;background:var(--ink);
   border-radius:var(--r);overflow:hidden;transform:scale(.97);transition:transform 220ms var(--ease)}
 .tt-bd.is-open .tt-modal{transform:none}
-.tt-media{position:relative;aspect-ratio:4/5;background:#000}
+.tt-media{position:relative;aspect-ratio:9/16;max-height:calc(90vh - 80px);background:#000}
 .tt-media img{width:100%;height:100%;object-fit:cover}
+/* Inline player (self-hosted <video> or TikTok <iframe>) fills the same frame */
+.tt-player{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000}
+video.tt-player{object-fit:contain}
+iframe.tt-player{aspect-ratio:auto}
 .tt-close{position:absolute;top:10px;right:10px;z-index:3;width:38px;height:38px;border-radius:50%;border:none;
   background:rgba(13,23,32,.6);color:#fff;display:grid;place-items:center;cursor:pointer}
 .tt-nav-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:38px;height:38px;border-radius:50%;
@@ -784,7 +857,7 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
 .tt-nav-btn:disabled{opacity:.3;cursor:default}
 .tt-foot{padding:16px 18px;display:flex;align-items:center;justify-content:space-between;gap:12px;color:#fff}
 .tt-foot-tx{min-width:0}
-.tt-preview-tag{display:block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.45);margin:0 0 2px}
+.tt-preview-tag{display:block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.45);margin:0 0 2px}
 .tt-foot p{font-size:12.5px;color:rgba(255,255,255,.7);margin:0}
 .tt-foot a{font-size:13px;font-weight:600;color:var(--o-300);white-space:nowrap}
 
@@ -1080,8 +1153,48 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
   </div>
 </section>
 
+<!-- ══ From the shop — real content from the Anwar Optical TikTok account.
+     Figures come from TIKTOK_STATS in the page script; never hand-edit them here.
+     Copy describes only what the clips visibly show (frames in hand, coatings
+     catching the light) — no claims about frequency, customers or reach. ══ -->
+<section class="social" id="from-the-shop" aria-labelledby="ttTitle">
+  <svg class="tt-specs" viewBox="0 0 230 110" aria-hidden="true"><circle cx="62" cy="55" r="42"/><circle cx="168" cy="55" r="42"/><path d="M104 55h22"/><path d="M20 40 4 30M210 40l16-10"/></svg>
+  <div class="wrap">
+    <div class="tt-intro rv">
+      <a href="https://www.tiktok.com/@anwar.optical" class="tt-handle focus-ring" target="_blank" rel="noopener">
+        <span class="tt-glyph"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 1 1 .77-5.06V9.68a5.66 5.66 0 0 0-.77-.05A5.67 5.67 0 1 0 15.54 15.3V8.9a7.35 7.35 0 0 0 4.3 1.38V7.2a4.29 4.29 0 0 1-3.24-1.38Z"/></svg></span>
+        <span>@anwar.optical <span class="tt-on">on TikTok</span></span>
+      </a>
+      <h2 id="ttTitle">Held up to<br><em>the light.</em></h2>
+      <p>Short clips from our counter — frames turned in hand, so you can watch the lens coating catch the light and see the finish up close before you come in.</p>
+
+      <div class="tt-stats" id="ttStats" hidden>
+        <div class="tt-stat"><b data-stat="followers">0</b><span>followers on TikTok</span></div>
+        <div class="tt-stat"><b data-stat="watchHours">0</b><span>Hours watched</span></div>
+        <div class="tt-stat"><b data-stat="views">0</b><span>Views</span></div>
+        <div class="tt-stat"><b data-stat="likes">0</b><span>Likes</span></div>
+        <div class="tt-stat"><b data-stat="videos">0</b><span>Videos posted</span></div>
+      </div>
+      <span class="sf-note" id="ttStatsNote" hidden></span>
+
+      <a href="https://www.tiktok.com/@anwar.optical" class="tt-follow focus-ring" target="_blank" rel="noopener">Follow @anwar.optical <span class="ar" aria-hidden="true">↗</span></a>
+    </div>
+
+    <div class="tt-feed">
+      <div class="social-rail" id="socialRail" tabindex="0" role="region" aria-label="Clips from Anwar Optical on TikTok"></div>
+      <div class="tt-feed-foot">
+        <span class="tt-hint">Tap a clip to watch it</span>
+        <div class="social-nav">
+          <button type="button" class="s-arrow focus-ring" id="sPrev" aria-label="Scroll to previous clips" aria-controls="socialRail"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+          <button type="button" class="s-arrow focus-ring" id="sNext" aria-label="Scroll to more clips" aria-controls="socialRail"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ══ Featured ══ -->
-<section style="padding-top:0">
+<section style="padding-top:clamp(24px,3vw,36px)">
   <div class="wrap">
     <div class="sec-hd rv">
       <div>
@@ -1333,30 +1446,7 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
 </section>
 
 
-<!-- ══ From the shop — real content from the Anwar Optical TikTok account ══ -->
-<section class="social" id="from-the-shop">
-  <div class="wrap">
-    <div class="social-hd rv">
-      <div>
-        <span class="fp-kick" style="color:var(--o-700)">From the shop</span>
-        <h2>Inside Anwar Optical</h2>
-        <p>Frames, fittings and everyday moments from the shop.</p>
-      </div>
-      <div class="social-nav">
-        <button type="button" class="s-arrow focus-ring" id="sPrev" aria-label="Scroll to previous posts" aria-controls="socialRail"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
-        <button type="button" class="s-arrow focus-ring" id="sNext" aria-label="Scroll to more posts" aria-controls="socialRail"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
-      </div>
-    </div>
-
-    <div class="social-rail" id="socialRail" tabindex="0" role="region" aria-label="Posts from Anwar Optical on TikTok"></div>
-
-    <p class="social-foot">
-      <a href="https://www.tiktok.com/@anwar.optical" class="focus-ring" target="_blank" rel="noopener" style="color:var(--o-700);font-weight:600">Follow @anwar.optical <span aria-hidden="true">→</span></a>
-    </p>
-  </div>
-</section>
-
-<!-- ══ TikTok same-page viewer — real stills only, no invented captions/stats ══ -->
+<!-- ══ TikTok same-page viewer — plays the self-hosted clip inline; links to the real post for sound ══ -->
 <div class="tt-bd" id="ttBd" hidden>
   <div class="tt-modal" role="dialog" aria-modal="true" aria-label="Anwar Optical on TikTok">
     <div class="tt-media">
@@ -1367,10 +1457,10 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
     </div>
     <div class="tt-foot">
       <div class="tt-foot-tx">
-        <span class="tt-preview-tag">TikTok preview</span>
-        <p>@anwar.optical on TikTok</p>
+        <span class="tt-preview-tag">@anwar.optical on TikTok</span>
+        <p id="ttFootTitle">@anwar.optical on TikTok</p>
       </div>
-      <a href="https://www.tiktok.com/@anwar.optical" id="ttViewLink" target="_blank" rel="noopener">View on TikTok →</a>
+      <a href="https://www.tiktok.com/@anwar.optical" id="ttViewLink" target="_blank" rel="noopener">Sound on TikTok →</a>
     </div>
   </div>
 </div>
@@ -1644,21 +1734,250 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
   }
 
   /* ══ From the shop — scroll-snap rail over real TikTok stills ══
-     Real assets only: social/tt/*.webp. No captions, follower counts or view
-     counts are invented anywhere — this data does not exist locally (see
-     final report). Every card opens an on-page viewer; "View on TikTok" links
-     to the real @anwar.optical profile, since no per-still TikTok post URL
-     mapping exists to deep-link a specific video. */
+     Four real posts, self-hosted as silent clips (see POSTS). Every card opens
+     an on-page viewer; "Sound on TikTok" deep-links that exact post. */
+
+  /* ── TikTok account figures — SINGLE SOURCE OF TRUTH ──────────────────────
+     Real numbers from the @anwar.optical TikTok account, as TikTok displays
+     them (e.g. 10.9K), supplied by the account holder on 14 Sep 2026. Update
+     them and `asOf` together. A null value hides that figure; all null hides
+     the row. Never estimate or round up — these are public claims about a
+     real business. The first real figure in this order is the large lead.
+       followers  : follower count (TikTok app → Profile)
+       watchHours : total watch time in HOURS (TikTok Studio → Analytics;
+                    TikTok reports minutes/hours — convert to hours)
+       views      : total video views (TikTok Studio → Analytics)
+       likes      : total likes (TikTok app → Profile)
+       videos     : number of videos posted (TikTok app → Profile)
+       asOf       : 'Month YYYY' the numbers were last checked (shown as a note)
+     ────────────────────────────────────────────────────────────────────── */
+  var TIKTOK_STATS = {
+    followers:  10900,     // 10.9K
+    watchHours: null,      // not supplied yet — hidden until it is
+    views:      3700000,   // ~3.7M
+    likes:      83700,     // 83.7K
+    videos:     1392,
+    asOf:       'September 2026'
+  };
+  var STAT_KEYS = ['followers','watchHours','views','likes','videos'];
+
+  (function(){
+    var box = document.getElementById('ttStats');
+    if(!box) return;
+
+    var wanted = STAT_KEYS.filter(function(k){
+      return typeof TIKTOK_STATS[k] === 'number' && TIKTOK_STATS[k] > 0;
+    });
+    if(!wanted.length) return;   // nothing real to show — stay hidden
+
+    // Hide any stat we don't have a real number for.
+    STAT_KEYS.forEach(function(k){
+      if(wanted.indexOf(k) === -1){
+        var el = box.querySelector('[data-stat="'+k+'"]');
+        if(el && el.parentNode) el.parentNode.hidden = true;
+      }
+    });
+    // Lead with whichever real figure comes first (views → followers → likes)
+    var lead = box.querySelector('.tt-stat:not([hidden])');
+    if(lead) lead.classList.add('is-lead');
+    box.hidden = false;
+
+    if(TIKTOK_STATS.asOf){
+      var note = document.getElementById('ttStatsNote');
+      if(note){ note.textContent = 'TikTok figures as of ' + TIKTOK_STATS.asOf; note.hidden = false; }
+    }
+
+    function fmt(n){
+      if(n >= 1e6) return (n/1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/,'') + 'M';
+      if(n >= 1e4) return (n/1e3).toFixed(n >= 1e5 ? 0 : 1).replace(/\.0$/,'') + 'K';
+      return n.toLocaleString('en-US');   // under 10K: exact, e.g. 1,392
+    }
+
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+    function countUp(el, target){
+      if(reduce || document.hidden){ el.textContent = fmt(target); return; }
+      // Progress is wall-clock based and a timer guarantees the finish, so a
+      // stalled or throttled renderer can never leave a figure stuck mid-count
+      // (or at "0") — the real number always lands by DUR + 150ms.
+      var start = performance.now(), DUR = 1400, done = false;
+      function finish(){ if(done) return; done = true; el.textContent = fmt(target); }
+      function frame(){
+        if(done) return;
+        var p = (performance.now() - start) / DUR;
+        if(p >= 1){ finish(); return; }
+        var eased = 1 - Math.pow(1 - p, 3);          // easeOutCubic
+        el.textContent = fmt(Math.round(target * eased));
+        requestAnimationFrame(frame);
+      }
+      requestAnimationFrame(frame);
+      setTimeout(finish, DUR + 150);
+    }
+
+    /* Paint the real figures immediately. The count-up is an enhancement
+       layered on top — so if rAF/IntersectionObserver never run (background
+       tab, throttled renderer, reduced-motion, no IO support) the correct
+       number is already on screen rather than a stuck "0". */
+    wanted.forEach(function(k){
+      var el = box.querySelector('[data-stat="'+k+'"]');
+      if(el) el.textContent = fmt(TIKTOK_STATS[k]);
+    });
+
+    var counted = false;
+    function run(){
+      if(counted) return;
+      counted = true;
+      wanted.forEach(function(k){
+        var el = box.querySelector('[data-stat="'+k+'"]');
+        if(el) countUp(el, TIKTOK_STATS[k]);
+      });
+    }
+
+    function maybeRun(){
+      var r = box.getBoundingClientRect();
+      if(r.top < window.innerHeight * .9 && r.bottom > 0) run();
+    }
+    if(!reduce){
+      window.addEventListener('scroll', maybeRun, { passive:true });
+      window.addEventListener('resize', maybeRun, { passive:true });
+      maybeRun();
+    }
+  })();
+
   var rail = document.getElementById('socialRail');
   if(rail){
     var PROFILE = 'https://www.tiktok.com/@anwar.optical';
-    var STILLS = ['ttk1','ttk3','ttk4','ttk12','ttk9','ttk6','ttk5','ttk11'];
+    /* ── Post map: still → playable source ──────────────────────────────────
+       Each entry may carry EITHER of these to make it play inline (no redirect):
+         video   : path to a self-hosted file, e.g. './social/tt/ttk1.mp4'
+                   (best experience — fast, no TikTok cookies, no branding)
+         videoId : the numeric id from the post's TikTok URL, e.g.
+                   tiktok.com/@anwar.optical/video/7412345678901234567
+                   → videoId:'7412345678901234567' (official embed, loaded
+                   only on click so it costs nothing until used)
+       `video` wins if both are present. With neither, the card shows the still
+       and links out. Also: `tiktok` (that post's URL, used for "sound on
+       TikTok" — hosted files are silent, as the originals use TikTok library
+       music) and `title` (from the post caption). Nothing here is invented. */
+    var CLIP = './social/tt/clips/', POST = 'https://www.tiktok.com/@anwar.optical/video/';
+    var POSTS = [
+      { still:'clips/rayban-wayfarer-polarised',          preview:CLIP+'rayban-wayfarer-polarised-loop.mp4',          video:CLIP+'rayban-wayfarer-polarised.mp4',
+        tiktok:POST+'7685051405727583509', title:'Ray-Ban Wayfarer, matte black · Polarised' },
+      { still:'clips/photochromic-brown',                 preview:CLIP+'photochromic-brown-loop.mp4',                 video:CLIP+'photochromic-brown.mp4',
+        tiktok:POST+'7670598845360819477', title:'Photochromic brown lenses, blue coating' },
+      { still:'clips/rayban-wayfarer-progressive-tinted', preview:CLIP+'rayban-wayfarer-progressive-tinted-loop.mp4', video:CLIP+'rayban-wayfarer-progressive-tinted.mp4',
+        tiktok:POST+'7668006471501729045', title:'Ray-Ban Wayfarer · Progressive tinted' },
+      { still:'clips/prada-drivx-super-combi',            preview:CLIP+'prada-drivx-super-combi-loop.mp4',            video:CLIP+'prada-drivx-super-combi.mp4',
+        tiktok:POST+'7588583707070483732', title:'Prada frame · DRIVX Super Combi lenses' }
+    ];
+    var STILLS = POSTS.map(function(p){ return p.still; });
     rail.innerHTML = STILLS.map(function(id, i){
-      return '<button type="button" class="s-card focus-ring" data-i="'+i+'" aria-label="Open Anwar Optical TikTok still ' + (i+1) + ' of ' + STILLS.length + '">'
+      return '<button type="button" class="s-card focus-ring" data-i="'+i+'" aria-label="Watch: ' + (POSTS[i].title || ('clip ' + (i+1))) + '">'
         + '<img src="./social/tt/' + id + '.webp" alt="Anwar Optical on TikTok" width="400" height="520" loading="lazy" decoding="async">'
-        + '<span class="s-play" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>'
+        + '<span class="s-meta" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"><path d="M7 4.5v15l12.5-7.5z"/></svg>@anwar.optical</span>'
         + '</button>';
     }).join('');
+
+    /* ── Rail cards: muted autoplay loops ───────────────────────────────────
+       Activates only for POSTS entries that have `preview` (a short, light
+       loop — ideal) or `video`. Until those files exist every card stays a
+       still, exactly as now. Deliberately conservative, because this section
+       sits high on the page and most visitors are on Pakistani mobile data:
+         • only cards actually visible in the rail play; others pause
+         • nothing downloads until a card nears the viewport (preload:'none')
+         • skipped entirely on Save-Data, 2G, or prefers-reduced-motion
+       Falls back to the still on any decode/network failure. */
+    (function(){
+      var conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+      var saveData = !!(conn && conn.saveData);
+      var slowNet  = !!(conn && /(^|-)2g$/.test(conn.effectiveType || ''));
+      var reduce   = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+      if(saveData || slowNet || reduce || !('IntersectionObserver' in window)) return;
+
+      var playable = POSTS.map(function(p, i){
+        return { i: i, src: p.preview || p.video || null };
+      }).filter(function(p){ return p.src; });
+      if(!playable.length) return;
+
+      var sources = {};   // card index → source url
+
+      playable.forEach(function(p){
+        var card = rail.querySelector('.s-card[data-i="'+p.i+'"]');
+        if(!card) return;
+
+        var v = document.createElement('video');
+        v.className = 's-loop';
+        v.muted = true; v.defaultMuted = true;
+        v.loop = true; v.playsInline = true; v.autoplay = false;
+        v.preload = 'none';
+        v.setAttribute('muted','');            // Safari needs the attribute too
+        v.setAttribute('playsinline','');
+        v.setAttribute('aria-hidden','true');
+        v.tabIndex = -1;
+        v.poster = './social/tt/' + POSTS[p.i].still + '.webp';
+        // Only treat it as a real failure once a source was actually attempted,
+        // otherwise an empty-src element can tear itself down on insert.
+        v.addEventListener('error', function(){
+          if(v.getAttribute('src')){ card.classList.remove('has-loop'); v.remove(); }
+        });
+        // Reveal only once there are real frames, so we never flash a black box
+        v.addEventListener('playing', function(){ card.classList.add('has-loop'); }, { once:true });
+        card.appendChild(v);
+        sources[p.i] = p.src;
+      });
+
+      /* Visibility is computed directly from geometry rather than via
+         IntersectionObserver, which behaves inconsistently across a
+         horizontally-clipping ancestor. Two conditions must both hold:
+           1. the section is on screen at all
+           2. the card is at least half inside the rail's horizontal view
+         Re-evaluated on rail scroll, window scroll and resize, rAF-throttled. */
+      var section = document.getElementById('from-the-shop') || rail;
+      var ticking = false;
+
+      function sync(){
+        ticking = false;
+        var sr = section.getBoundingClientRect();
+        // Section on screen at all? Computed directly rather than via
+        // IntersectionObserver so there is no callback to miss.
+        var viewer = document.getElementById('ttBd');
+        // Hidden behind the open viewer counts as off-screen: opening it locks
+        // page scroll, which fires resize and would otherwise restart the loops.
+        var sectionVisible = sr.top < window.innerHeight && sr.bottom > 0 && (!viewer || viewer.hidden);
+        var rr = rail.getBoundingClientRect();
+        rail.querySelectorAll('.s-card').forEach(function(card){
+          var v = card.querySelector('video.s-loop');
+          if(!v) return;
+          var cr = card.getBoundingClientRect();
+          var shownPx = Math.min(cr.right, rr.right) - Math.max(cr.left, rr.left);
+          var inView = sectionVisible && cr.width > 0 && (shownPx / cr.width) >= .5;
+          if(inView){
+            if(!v.getAttribute('src')) v.src = sources[card.dataset.i];
+            if(v.paused){
+              var r = v.play();
+              if(r && r.catch) r.catch(function(){ /* autoplay refused — still shows */ });
+            }
+          } else if(!v.paused){
+            v.pause();
+          }
+        });
+      }
+      function queueSync(){
+        if(ticking) return;
+        ticking = true;
+        requestAnimationFrame(sync);
+      }
+
+      rail.addEventListener('scroll', queueSync, { passive:true });
+      window.addEventListener('scroll', queueSync, { passive:true });
+      window.addEventListener('resize', queueSync, { passive:true });
+      queueSync();
+
+      // Stop everything while a tab is backgrounded (battery + data)
+      document.addEventListener('visibilitychange', function(){
+        if(!document.hidden) return;
+        rail.querySelectorAll('video.s-loop').forEach(function(v){ v.pause(); });
+      });
+    })();
 
     var sPrev = document.getElementById('sPrev'), sNext = document.getElementById('sNext');
     function step(){ var c = rail.querySelector('.s-card'); return c ? c.getBoundingClientRect().width + 14 : 260; }
@@ -1677,16 +1996,60 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
     window.addEventListener('resize', syncArrows, { passive:true });
     syncArrows();
 
-    /* ── Same-page viewer modal (stills only — no local video files exist to play) ── */
+    /* ── Same-page viewer modal ──
+       Plays inline when a POSTS entry has `video` (self-hosted) or `videoId`
+       (TikTok embed, injected on open so its ~1MB of third-party JS never
+       loads for visitors who don't click). Falls back to the still image. */
     var ttBd = document.getElementById('ttBd'), ttImg = document.getElementById('ttImg'),
         ttClose = document.getElementById('ttClose'), ttPrev = document.getElementById('ttPrev'), ttNext = document.getElementById('ttNext');
+    var ttMedia = ttImg.parentNode,
+        ttFootTitle = document.getElementById('ttFootTitle'),
+        ttViewLink = document.getElementById('ttViewLink');
     var ttCur = 0, ttLastFocus = null, ttTrap = makeTrap(ttBd);
+
+    function ttClearPlayer(){
+      var old = ttMedia.querySelector('.tt-player');
+      if(old){
+        var v = old.tagName === 'VIDEO' ? old : old.querySelector('video');
+        if(v){ try{ v.pause(); v.removeAttribute('src'); v.load(); }catch(e){} }
+        old.remove();
+      }
+      ttImg.hidden = false;
+    }
     function ttShow(i){
-      ttCur = (i + STILLS.length) % STILLS.length;
-      ttImg.src = './social/tt/' + STILLS[ttCur] + '.webp';
+      ttCur = (i + POSTS.length) % POSTS.length;
+      var post = POSTS[ttCur];
+      ttClearPlayer();
+      ttImg.src = './social/tt/' + post.still + '.webp';
+      ttFootTitle.textContent = post.title || '@anwar.optical on TikTok';
+      ttViewLink.href = post.tiktok || PROFILE;
+      ttViewLink.setAttribute('aria-label', (post.title ? post.title + ' — ' : '') + 'watch with sound on TikTok (opens in a new tab)');
+
+      if(post.video){
+        var v = document.createElement('video');
+        v.className = 'tt-player';
+        v.src = post.video;
+        v.poster = './social/tt/' + post.still + '.webp';
+        v.controls = true; v.autoplay = true; v.playsInline = true; v.loop = true;
+        v.setAttribute('aria-label', 'Video from Anwar Optical on TikTok');
+        ttImg.hidden = true;
+        ttMedia.appendChild(v);
+      } else if(post.videoId){
+        var f = document.createElement('iframe');
+        f.className = 'tt-player';
+        f.src = 'https://www.tiktok.com/embed/v2/' + encodeURIComponent(post.videoId);
+        f.title = 'Anwar Optical on TikTok';
+        f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+        f.setAttribute('frameborder', '0');
+        f.setAttribute('scrolling', 'no');
+        ttImg.hidden = true;
+        ttMedia.appendChild(f);
+      }
     }
     function ttOpen(i){
       ttLastFocus = document.activeElement;
+      // Don't decode the rail loops behind the viewer
+      rail.querySelectorAll('video.s-loop').forEach(function(v){ v.pause(); });
       ttShow(i);
       ttBd.hidden = false;
       requestAnimationFrame(function(){ ttBd.classList.add('is-open'); ttClose.focus(); });
@@ -1696,7 +2059,11 @@ footer ul a{font-size:13px;transition:color 180ms var(--ease)}
     function ttCloseFn(){
       ttBd.classList.remove('is-open');
       document.body.style.overflow = '';
-      setTimeout(function(){ ttBd.hidden = true; }, 220);
+      ttClearPlayer();
+      setTimeout(function(){
+        ttBd.hidden = true;
+        window.dispatchEvent(new Event('scroll'));   // viewer gone: let the loop sync resume visible cards
+      }, 220);
       document.removeEventListener('keydown', ttTrap);
       if(ttLastFocus) ttLastFocus.focus();
     }

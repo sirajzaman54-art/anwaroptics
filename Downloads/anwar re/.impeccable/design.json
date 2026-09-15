@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-14T12:00:00Z",
+  "title": "Design System: Anwar Optical",
+  "extensions": {
+    "colorMeta": {
+      "ember-700": {
+        "role": "primary",
+        "displayName": "Ember",
+        "canonical": "#B44C15",
+        "tonalRamp": ["#8C3B10", "#B44C15", "#DB5F1B", "#F0722C", "#F5A66E", "#FCE0CC", "#FEF2E9"]
+      },
+      "marigold-flag": {
+        "role": "secondary",
+        "displayName": "Marigold Flag",
+        "canonical": "#F68F12",
+        "tonalRamp": ["#4A2B05", "#874F0A", "#C5720E", "#F68F12", "#F7A33A", "#F8B563", "#FACD98", "#FCE3C7"]
+      },
+      "sale": {
+        "role": "tertiary",
+        "displayName": "Sale Red",
+        "canonical": "#C8452B",
+        "tonalRamp": ["#3C150D", "#6E2618", "#A03722", "#C8452B", "#CC614B", "#D07C65", "#D5A192", "#DBC1B5"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#14212B",
+        "tonalRamp": ["#0D1720", "#14212B", "#1D2E3B", "#27404F"]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream",
+        "canonical": "#FAF7F3",
+        "tonalRamp": ["#F3EEE7", "#FAF7F3", "#FFFFFF"]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft",
+        "canonical": "#6E6862",
+        "tonalRamp": ["#3A3532", "#6E6862", "#756D65", "#A39C95", "#C9C3BC"]
+      },
+      "good": {
+        "role": "tertiary",
+        "displayName": "Good (Success)",
+        "canonical": "#2F8558",
+        "tonalRamp": ["#1B4E33", "#256B44", "#2F8558", "#4FA378", "#7EC1A0", "#B4DFC8"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headlines only." },
+      "headline": { "displayName": "Headline", "purpose": "Section headings across every page — a fluid family, not one literal size; nearby sections use adjacent clamp() ranges scaled to visual weight." },
+      "title": { "displayName": "Title", "purpose": "Product and card names, compact titled UI (dialog titles run 17–19px, still this role)." },
+      "caption": { "displayName": "Caption", "purpose": "Secondary/meta text — legitimately spans 11–13.5px depending on context (search meta, product kind, compare-at price, category labels)." },
+      "body": { "displayName": "Body", "purpose": "All paragraph copy, everywhere except the TikTok section." },
+      "label": { "displayName": "Label / Eyebrow", "purpose": "Uppercase kickers above headings, always paired with a short accent rule." },
+      "script": { "displayName": "Script Accent", "purpose": "Occasional handwritten micro-copy, e.g. hero corner text." },
+      "editorial-display": { "displayName": "Editorial Display", "purpose": "TikTok section pull-quote heading and oversized trust figure only — never product copy." },
+      "editorial-label": { "displayName": "Editorial Label", "purpose": "Body copy inside the TikTok section only." }
+    },
+    "shadows": [
+      { "name": "rest", "value": "none", "purpose": "Default state for every card, button, and container — the system is flat until touched." },
+      { "name": "button-rest", "value": "0 1px 2px rgba(20,33,43,0.14)", "purpose": "Near-invisible grounding shadow under filled primary buttons at rest — the one exception to flat-at-rest." },
+      { "name": "card-lift", "value": "0 14px 30px -20px rgba(20,33,43,0.4)", "purpose": "Product card hover, paired with translateY(-2px) and a border-color shift to ember-300." },
+      { "name": "panel-float-light", "value": "0 16px 32px -14px rgba(20,33,43,0.24)", "purpose": "Dropdowns and light-surface floating panels." },
+      { "name": "panel-float-dark", "value": "0 22px 44px -22px rgba(0,0,0,0.75)", "purpose": "The TikTok player and other dark-surface floating panels." }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.32,0.72,0,1)", "purpose": "The system's one easing curve — used for every hover, reveal, and transform transition." },
+      { "name": "duration-hover", "value": "180-240ms", "purpose": "Hover-state color/background/border transitions." },
+      { "name": "duration-reveal", "value": "700ms", "purpose": "Scroll-triggered reveal (opacity + translateY(18px) to none); respects prefers-reduced-motion." },
+      { "name": "press-scale", "value": "scale(0.98) on :active", "purpose": "Tactile press-down feedback on every button." }
+    ],
+    "breakpoints": [
+      { "name": "xl", "value": "1180px" },
+      { "name": "lg", "value": "1080px" },
+      { "name": "nav-collapse", "value": "1000px" },
+      { "name": "md", "value": "900px" },
+      { "name": "sm", "value": "620px" },
+      { "name": "xs", "value": "560px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one filled call-to-action button — checkout, add to cart, primary form submits.",
+      "html": "<button class=\"ds-btn-primary\">Add to Cart</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:'Outfit',sans-serif;font-size:15px;font-weight:600;padding:13px 24px;min-height:46px;border-radius:8px;cursor:pointer;border:1.5px solid transparent;background:#B44C15;color:#fff;box-shadow:0 1px 2px rgba(20,33,43,0.14);transition:background 200ms cubic-bezier(0.32,0.72,0,1),transform 140ms cubic-bezier(0.32,0.72,0,1)}.ds-btn-primary:hover{background:#8C3B10}.ds-btn-primary:active{transform:scale(0.98)}.ds-btn-primary:focus-visible{outline:2px solid #DB5F1B;outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary action — inverts to a solid dark fill on hover rather than a subtle tint.",
+      "html": "<button class=\"ds-btn-outline\">View Details</button>",
+      "css": ".ds-btn-outline{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:'Outfit',sans-serif;font-size:15px;font-weight:600;padding:13px 24px;min-height:46px;border-radius:8px;cursor:pointer;border:1.5px solid #E8E1D8;background:#FFFFFF;color:#14212B;transition:background 200ms cubic-bezier(0.32,0.72,0,1),color 200ms cubic-bezier(0.32,0.72,0,1),border-color 200ms cubic-bezier(0.32,0.72,0,1)}.ds-btn-outline:hover{border-color:#14212B;background:#14212B;color:#fff}.ds-btn-outline:active{transform:scale(0.98)}.ds-btn-outline:focus-visible{outline:2px solid #DB5F1B;outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Secondary-emphasis action for use on a light card sitting inside a dark section.",
+      "html": "<button class=\"ds-btn-dark\">Shop Eyeglasses</button>",
+      "css": ".ds-btn-dark{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-family:'Outfit',sans-serif;font-size:15px;font-weight:600;padding:13px 24px;min-height:46px;border-radius:8px;cursor:pointer;border:none;background:#14212B;color:#fff;transition:background 200ms cubic-bezier(0.32,0.72,0,1)}.ds-btn-dark:hover{background:#1D2E3B}.ds-btn-dark:active{transform:scale(0.98)}.ds-btn-dark:focus-visible{outline:2px solid #DB5F1B;outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "card-product",
+      "description": "The catalogue/PDP grid card — flat at rest, lifts and highlights its border on hover.",
+      "html": "<article class=\"ds-pcard\"><div class=\"ds-pcard-media\"><span class=\"ds-pflag\">34% off</span><img src=\"\" alt=\"Metal Ladies Eyewear\"></div><h3 class=\"ds-pcard-title\">Metal Ladies Eyewear</h3><p class=\"ds-pcard-kind\">Eyeglasses · Women</p><p class=\"ds-pcard-price\">₨ 1,650 <s>₨ 2,500</s></p></article>",
+      "css": ".ds-pcard{background:#FFFFFF;border:1px solid #E8E1D8;border-radius:14px;padding:11px;display:flex;flex-direction:column;gap:3px;transition:border-color 240ms cubic-bezier(0.32,0.72,0,1),box-shadow 240ms cubic-bezier(0.32,0.72,0,1),transform 240ms cubic-bezier(0.32,0.72,0,1)}.ds-pcard:hover{border-color:#F5A66E;box-shadow:0 14px 30px -20px rgba(20,33,43,0.4);transform:translateY(-2px)}.ds-pcard-media{position:relative;aspect-ratio:1/1;border-radius:10px;overflow:hidden;background:#FAF7F3;margin-bottom:8px}.ds-pcard-media img{width:100%;height:100%;object-fit:cover;transition:transform 600ms cubic-bezier(0.32,0.72,0,1)}.ds-pcard:hover .ds-pcard-media img{transform:scale(1.05)}.ds-pflag{position:absolute;top:9px;left:9px;background:#C8452B;color:#fff;font-family:'Outfit',sans-serif;font-size:10.5px;font-weight:700;padding:4px 8px;border-radius:5px;letter-spacing:0.02em}.ds-pcard-title{font-family:'Outfit',sans-serif;font-size:14.5px;font-weight:600;letter-spacing:-0.015em;color:#14212B}.ds-pcard-kind{font-size:12.5px;color:#6E6862}.ds-pcard-price{font-family:'Outfit',sans-serif;font-size:15px;font-weight:700;color:#B44C15}.ds-pcard-price s{font-weight:500;font-size:12.5px;color:#756D65}"
+    },
+    {
+      "name": "Eyebrow Label",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "The uppercase kicker preceding a section heading, always paired with a short 2px accent rule.",
+      "html": "<span class=\"ds-eyebrow\">From the shop</span>",
+      "css": ".ds-eyebrow{display:inline-flex;align-items:center;gap:10px;font-family:'Outfit',sans-serif;font-size:12px;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;color:#F5A66E}.ds-eyebrow::before{content:'';width:26px;height:2px;background:#F0722C;border-radius:2px}"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": null,
+      "description": "The header search field — cream fill, warm border, no shadow.",
+      "html": "<div class=\"ds-search\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m21 21-4.3-4.3\"/></svg><input type=\"text\" placeholder=\"Search frames, sunglasses…\"></div>",
+      "css": ".ds-search{display:flex;align-items:center;gap:9px;background:#FAF7F3;border:1.5px solid #E8E1D8;border-radius:9px;padding:0 13px;height:42px;color:#6E6862;transition:border-color 180ms cubic-bezier(0.32,0.72,0,1)}.ds-search:focus-within{border-color:#DB5F1B}.ds-search input{border:none;background:transparent;outline:none;font-family:'Inter',sans-serif;font-size:14px;color:#14212B;width:100%}.ds-search input::placeholder{color:#756D65}"
+    },
+    {
+      "name": "Sticky Header Nav",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Translucent, blurred sticky header with pill-hover primary links.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" class=\"ds-nav-link is-active\">Eyeglasses</a><a href=\"#\" class=\"ds-nav-link\">Sunglasses</a><a href=\"#\" class=\"ds-nav-link\">Contact Lenses</a></nav>",
+      "css": ".ds-nav{display:flex;gap:2px;background:rgba(255,255,255,0.94);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-bottom:1px solid #E8E1D8;padding:16px}.ds-nav-link{font-family:'Outfit',sans-serif;font-size:14.5px;font-weight:500;color:#14212B;padding:8px 13px;border-radius:7px;transition:color 180ms cubic-bezier(0.32,0.72,0,1),background 180ms cubic-bezier(0.32,0.72,0,1)}.ds-nav-link:hover,.ds-nav-link.is-active{color:#DB5F1B;background:#FEF2E9}.ds-nav-link:focus-visible{outline:2px solid #DB5F1B;outline-offset:3px;border-radius:6px}"
+    },
+    {
+      "name": "Editorial Trust Figure",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "The TikTok section's signature oversized number + italic qualifier, in the system's one editorial-register component.",
+      "html": "<div class=\"ds-trust-figure\"><b>10.9K</b><span>followers on TikTok</span></div>",
+      "css": ".ds-trust-figure{display:flex;flex-direction:column;gap:10px;color:#fff}.ds-trust-figure b{font-family:'Instrument Serif','Times New Roman',Georgia,serif;font-weight:400;font-size:clamp(84px,8vw,112px);line-height:0.8;letter-spacing:-0.005em}.ds-trust-figure span{font-family:'Instrument Serif','Times New Roman',Georgia,serif;font-style:italic;font-weight:400;font-size:clamp(22px,2.2vw,27px);color:rgba(255,255,255,0.78)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Counter Ledger",
+    "overview": "Anwar Optical's interface is a trusted shopkeeper's paper ledger, not a screen. The ground is warm cream stock (#FAF7F3), not clinical white; text is a settled ink navy, not pure black; and the orange accent behaves like a wax-seal stamp — used sparingly, on exactly the things that matter (a price, a primary action, an active state), never as decoration. Every number the visitor sees is one somebody at the counter actually wrote down: this is the same principle that governs the product's honesty rules (never fabricate a stat, a review, a measurement), expressed visually. The system is warm, plainspoken, and unhurried — confident without being salesy. It is explicitly not a flashy drop-shipping storefront (no countdown timers, no manufactured urgency, no stock-photo gloss) and not a sterile SaaS dashboard (no cold grays, no clinical precision-for-its-own-sake). It should read like a real person, who has run this counter since 1968, is behind every word and every price.\n\nTwo September 2026 additions extend the system without replacing it: a homepage \"Shop Eyewear\" tabbed browse and \"Featured Frames\" rail (still fully within the Ledger system), and a homepage TikTok section that introduces a second, editorial type pairing (Instrument Serif + Instrument Sans) for its large trust figures and pull-quote heading — a deliberate register shift for a section whose job is to feel like a magazine feature on real customer proof, not the shop's product pages.",
+    "keyCharacteristics": [
+      "Warm cream paper ground, never pure white or gray, as the dominant surface",
+      "One primary accent (Ember orange) used sparingly; a second, brighter orange (Marigold Flag) reserved only for time-sensitive call-outs",
+      "Flat at rest; every surface lifts with a soft shadow only on hover/touch, never floats by default",
+      "Outfit + Inter as the everyday pairing; Instrument Serif + Instrument Sans as a deliberate editorial register shift, confined to one section",
+      "Tactile, confident controls: solid-filled primary buttons, 44–46px minimum touch targets, firm 1px borders on cards",
+      "Real photography and real video only — no illustration, no stock imagery, no invented data visualized as fact"
+    ],
+    "rules": [
+      { "name": "The Wax-Seal Rule", "body": "Ember is a stamp, not a wash. It appears on the thing the visitor should act on (a button, a price, a link) and almost nowhere else — never as a background fill for large surfaces, never as decorative color for its own sake.", "section": "colors" },
+      { "name": "The Marigold Flag Rule", "body": "If Marigold Flag (#F68F12) appears more than twice on a single page, something else should have been Ember instead — Marigold marks urgency, and urgency that's everywhere isn't urgency.", "section": "colors" },
+      { "name": "The Two Voices Rule", "body": "Outfit/Inter is the shop's voice — used everywhere a visitor is browsing, ordering, or reading tool guidance. Instrument Serif/Sans is reserved entirely for the one homepage section built around real customer proof; it never leaks into product pages, the catalogue, or cart/checkout.", "section": "typography" },
+      { "name": "The Touch-to-Lift Rule", "body": "Nothing floats until it's touched. If a shadow appears on a surface at rest, that surface should be redesigned to earn it through interaction instead.", "section": "elevation" },
+      { "name": "The Earned Pairing Rule", "body": "A 1px border and a wide, soft shadow on the same element at the same time is the deliberate hover contract for this system, not a generic AI-generated tell. It only ever appears in response to touch, never at rest.", "section": "elevation" },
+      { "name": "The Family, Not a Number Rule", "body": "Headline and Caption are fluid families with a documented range, not single literal pixel values. Match the nearest existing sibling's range rather than mint an arbitrary new clamp() — landing inside the documented family is conformance, not drift.", "section": "typography" }
+    ],
+    "dos": [
+      "Do keep Ember (#B44C15/#F0722C) as the only accent used for actionable elements (buttons, links, prices); reserve Marigold Flag (#F68F12) strictly for time-sensitive or attention-only call-outs, and cap it at roughly one or two appearances per page.",
+      "Do keep every surface flat at rest and let shadow only ever appear as a hover/interaction response (Touch-to-Lift Rule).",
+      "Do give every button and tappable control a minimum 44px height/width, matching the existing 46px button standard.",
+      "Do apply the shared Focus Ring (2px solid Ember 700 on light surfaces, 3px offset) to any new interactive element — never invent a second focus treatment. Ember 700, not 600, is what actually clears 4.5:1 on the Ember 50 hover fill; this was corrected during the September 2026 consistency pass.",
+      "Do keep Instrument Serif/Sans confined to sections whose job is presenting real customer/social proof; everywhere else stays Outfit/Inter.",
+      "Do respect prefers-reduced-motion for any new hover-lift, reveal-on-scroll, or autoplay behavior, matching the existing global pattern.",
+      "Do treat Caption (11–13.5px) and Title (14.5px) as real, distinct roles from Body — small functional text is not a mistake here as long as it stays at or above 11px and uses Soft/Soft 2 for color."
+    ],
+    "donts": [
+      "Don't use Ember as a large background fill or decorative wash — it is a stamp on one element, not a color scheme.",
+      "Don't introduce a drop shadow on any surface at rest (cards, buttons, panels) — depth is earned through interaction only in this system.",
+      "Don't invent a third orange. If Ember's existing scale (50–800) and Marigold Flag don't cover a new need, that's a signal to reconsider the design, not to add a color.",
+      "Don't put a fabricated number, review, testimonial, or statistic anywhere in the UI — this is a product-level rule (see PRODUCT.md) with direct visual consequences: an honestly-omitted figure is always the correct default over an invented placeholder.",
+      "Don't use pure white or cool gray as a page background — Cream is the ground; Paper is reserved for cards and the header sitting on top of it.",
+      "Don't use Ember 600 for text sitting on an Ember 50 background — it fails AA contrast (3.4:1). Ember 700 is the correct hover/active text color on that fill."
+    ]
+  }
+}
